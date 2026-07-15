@@ -10,14 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/roblo3x/iconic-drills-pack.git"
   },
-  "homepage": "https://github.com/roblo3x/iconic-drills-pack#readme",
+  "homepage": "https://roblo3x.github.io/iconic-drills-pack/",
   "bugs": "https://github.com/roblo3x/iconic-drills-pack/issues",
   "keywords": [
     "emoji",
     "icons",
     "illustrations",
     "svg",
-    "ddrills"
+    "ddrills",
+    "custom-emoji",
+    "hand-drawn",
+    "icon-pack",
+    "cc-by"
   ],
   "exports": {
     ".": {
@@ -44,6 +48,9 @@
     "bootstrap": "node scripts/bootstrap-approved.mjs",
     "build": "node scripts/build.mjs && node scripts/build-preview.mjs",
     "preview": "node scripts/build-preview.mjs",
+    "site:build": "node scripts/build-site.mjs",
+    "site:validate": "node scripts/validate-site.mjs",
+    "site:test": "npm run site:build && npm run site:validate",
     "validate": "node scripts/validate.mjs",
     "test": "npm run build && npm run validate && node --test",
     "pack:check": "npm pack --dry-run"
