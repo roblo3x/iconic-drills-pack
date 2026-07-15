@@ -23,9 +23,18 @@ const llms = await read('llms.txt');
 
 if (!home.includes('application/ld+json')) errors.push('Homepage is missing JSON-LD');
 if (!home.includes('data-icon-item')) errors.push('Homepage is missing static icon entries');
+if (!home.includes('class="brand-mark"')) errors.push('Homepage is missing the official Ddrills wordmark');
 if (!robots.includes('OAI-SearchBot')) errors.push('robots.txt is missing OAI-SearchBot guidance');
 if (!robots.includes('GPTBot\nDisallow: /')) errors.push('robots.txt does not separate search from training access');
 if (!llms.includes('Roman Kuzhel, Kyrgyzstan')) errors.push('llms.txt is missing creator attribution');
+
+for (const font of ['arial-narrow-regular.woff2', 'arial-narrow-bold.woff2']) {
+  try {
+    await fs.access(path.join(outputDir, 'assets', 'fonts', font));
+  } catch {
+    errors.push(`Missing Ddrills font asset: ${font}`);
+  }
+}
 
 for (const icon of metadata.icons) {
   const detail = await read(path.join('icons', icon.id, 'index.html'));
