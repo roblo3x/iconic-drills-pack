@@ -13,7 +13,7 @@ A rough, hand-drawn icon system by **Roman Kuzhel, Kyrgyzstan** that works both 
 Every approved drawing is distributed in four forms:
 
 - `illustration/*.svg` — transparent, monochrome SVG using `currentColor`;
-- `emoji-svg/*.svg` — black artwork on the Iconic green field;
+- `emoji-svg/*.svg` — black artwork on the Ddrills acid-lime field (`#C8FF00`);
 - `emoji-png/128/*.png` — compact custom emoji for services such as Slack;
 - `emoji-png/256` and `emoji-png/512` — higher-resolution exports.
 

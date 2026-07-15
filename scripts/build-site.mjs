@@ -174,7 +174,7 @@ const homeContent = `<main>
   <section class="intro reveal" aria-labelledby="intro-title">
     <h2 id="intro-title">One icon.<br>Two formats.</h2>
     <div class="intro-copy">
-      <p>Use transparent, monochrome SVGs in interfaces and editorial layouts. Use the green-field versions as emoji in Slack, Discord, documentation, and community spaces.</p>
+      <p>Use transparent, monochrome SVGs in interfaces and editorial layouts. Use the Ddrills acid-lime versions as emoji in Slack, Discord, documentation, and community spaces.</p>
       <p>Every icon has a stable Unicode code-point ID and downloadable SVG plus 128, 256, and 512 px PNG exports.</p>
     </div>
   </section>
@@ -188,7 +188,7 @@ const homeContent = `<main>
     </div>
     <div class="format">
       <figure>
-        <img src="${local(`assets/emoji-svg/${sampleIcon.id}.svg`)}" alt="${escapeHtml(sampleIcon.name)} as a green custom emoji" width="430" height="430">
+        <img src="${local(`assets/emoji-svg/${sampleIcon.id}.svg`)}" alt="${escapeHtml(sampleIcon.name)} as a Ddrills acid-lime custom emoji" width="430" height="430">
         <figcaption><span>Custom emoji</span><span>SVG + PNG</span></figcaption>
       </figure>
     </div>
@@ -299,7 +299,7 @@ for (const [index, icon] of metadata.icons.entries()) {
   const emojiPngUrl = absolute(`assets/emoji-png/512/${icon.id}.png`);
   const previous = metadata.icons[(index - 1 + metadata.icons.length) % metadata.icons.length];
   const next = metadata.icons[(index + 1) % metadata.icons.length];
-  const description = `Download the rough hand-drawn ${icon.name} icon by Roman Kuzhel as a transparent SVG illustration or green custom emoji in SVG and PNG.`;
+  const description = `Download the rough hand-drawn ${icon.name} icon by Roman Kuzhel as a transparent SVG illustration or Ddrills acid-lime custom emoji in SVG and PNG.`;
   const iconData = {
     '@context': 'https://schema.org',
     '@type': 'ImageObject',
@@ -352,9 +352,9 @@ for (const [index, icon] of metadata.icons.entries()) {
         <a href="${local(`assets/illustration/${icon.id}.svg`)}" download>Download illustration</a>
       </div>
       <div class="asset-preview">
-        <img src="${local(`assets/emoji-svg/${icon.id}.svg`)}" alt="Green-field ${escapeHtml(icon.name)} custom emoji" width="360" height="360">
+        <img src="${local(`assets/emoji-svg/${icon.id}.svg`)}" alt="Ddrills acid-lime ${escapeHtml(icon.name)} custom emoji" width="360" height="360">
         <h2>Custom emoji</h2>
-        <p>Green-field SVG plus compact PNG exports for chat and community tools.</p>
+        <p>Acid-lime SVG plus compact PNG exports for chat and community tools.</p>
         <a href="${local(`assets/emoji-svg/${icon.id}.svg`)}" download>SVG</a> ·
         <a href="${local(`assets/emoji-png/128/${icon.id}.png`)}" download>128 PNG</a> ·
         <a href="${local(`assets/emoji-png/256/${icon.id}.png`)}" download>256 PNG</a> ·
@@ -395,7 +395,7 @@ const imageSitemap = `<?xml version="1.0" encoding="UTF-8"?>
 ${metadata.icons.map((icon) => `  <url>
     <loc>${absolute(`icons/${icon.id}/`)}</loc>
     <image:image><image:loc>${absolute(`assets/illustration/${icon.id}.svg`)}</image:loc><image:title>${escapeHtml(icon.name)} SVG illustration</image:title><image:caption>Hand-drawn ${escapeHtml(icon.name)} icon by Roman Kuzhel</image:caption></image:image>
-    <image:image><image:loc>${absolute(`assets/emoji-png/512/${icon.id}.png`)}</image:loc><image:title>${escapeHtml(icon.name)} custom emoji</image:title><image:caption>Green custom emoji by Roman Kuzhel</image:caption></image:image>
+    <image:image><image:loc>${absolute(`assets/emoji-png/512/${icon.id}.png`)}</image:loc><image:title>${escapeHtml(icon.name)} custom emoji</image:title><image:caption>Ddrills acid-lime custom emoji by Roman Kuzhel</image:caption></image:image>
   </url>`).join('\n')}
 </urlset>
 `;

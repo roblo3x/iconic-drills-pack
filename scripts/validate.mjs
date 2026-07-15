@@ -41,7 +41,7 @@ for (const icon of metadata.icons) {
     const illustration = await fs.readFile(illustrationPath, 'utf8');
     if (!illustration.includes('fill="currentColor"')) errors.push(`${icon.id}: illustration build must use currentColor`);
     const emoji = await fs.readFile(emojiSvgPath, 'utf8');
-    if (!emoji.includes('fill="#0AF40B"')) errors.push(`${icon.id}: emoji build must use the Iconic field color`);
+    if (!emoji.includes('fill="#C8FF00"')) errors.push(`${icon.id}: emoji build must use the Ddrills accent color`);
   } catch {
     errors.push(`${icon.id}: build outputs are missing; run npm run build`);
   }
