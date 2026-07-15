@@ -9,8 +9,11 @@ const repositoryUrl = 'https://github.com/roblo3x/iconic-drills-pack';
 const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/';
 const credit = 'Iconic Drills Pack © 2026 Roman Kuzhel, Kyrgyzstan — CC BY 4.0';
 const metadata = JSON.parse(await fs.readFile(path.join(root, 'data', 'icons.json'), 'utf8'));
+const logoSource = await fs.readFile(path.join(root, 'site-src', 'DdrillsLogo.jsx'), 'utf8');
+const logoPaths = [...logoSource.matchAll(/<path d="([^"]+)" fill=\{fill\}\/>/g)].map((match) => match[1]);
 
 if (metadata.icons.length !== 96) throw new Error(`Expected 96 icons, found ${metadata.icons.length}`);
+if (logoPaths.length !== 12) throw new Error(`Expected 12 Ddrills logo paths, found ${logoPaths.length}`);
 
 const escapeHtml = (value) => String(value)
   .replaceAll('&', '&amp;')
@@ -23,6 +26,7 @@ const jsonLd = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
 const absolute = (value = '') => `${siteUrl}/${String(value).replace(/^\//, '')}`;
 const local = (value = '') => `${sitePath}/${String(value).replace(/^\//, '')}`.replace(/^$/, '/');
 const displayCategory = (value) => value.split('-').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ');
+const ddrillsLogo = (className) => `<svg class="${className}" viewBox="0 0 210 80" aria-hidden="true" focusable="false">${logoPaths.map((d) => `<path d="${d}"/>`).join('')}</svg>`;
 
 function head({ title, description, canonical, image, structuredData }) {
   return `
@@ -50,10 +54,10 @@ function head({ title, description, canonical, image, structuredData }) {
     <script type="application/ld+json">${jsonLd(structuredData)}</script>`;
 }
 
-function header(light = false) {
-  return `<header class="site-header${light ? ' site-header--light' : ''}">
+function header() {
+  return `<header class="site-header">
     <a class="brand" href="${local('')}" aria-label="Ddrills Club — Iconic Pack">
-      <b>ddrills club®</b><span>/ iconic pack</span>
+      ${ddrillsLogo('brand-mark')}<span>Iconic</span>
     </a>
     <nav class="header-links" aria-label="Primary navigation">
       <a href="${local('#catalog')}">Pack</a>
@@ -65,19 +69,18 @@ function header(light = false) {
 
 function footer() {
   return `<footer class="site-footer">
-    <div class="footer-brand">ddrills club® <span>/ iconic</span></div>
-    <p>${credit}. Commercial use requires attribution.</p>
-    <p><a href="${local('usage/')}">How to credit</a> · <a href="${repositoryUrl}">Source on GitHub</a></p>
+    <a class="footer-brand" href="https://www.ddrills.xyz/" aria-label="Ddrills Club">${ddrillsLogo('footer-mark')}</a>
+    <div class="footer-copy"><p>${credit}. Commercial use requires attribution.</p><p><a href="${local('usage/')}">How to credit</a> · <a href="${repositoryUrl}">Source on GitHub</a></p></div>
   </footer>`;
 }
 
-function page({ title, description, canonical, image, structuredData, content, lightHeader = false }) {
+function page({ title, description, canonical, image, structuredData, content }) {
   return `<!doctype html>
 <html lang="en">
 <head>${head({ title, description, canonical, image, structuredData })}
 </head>
 <body>
-  ${header(lightHeader)}
+  ${header()}
   ${content}
   ${footer()}
   <script type="module" src="${local('assets/app.js')}"></script>
@@ -154,24 +157,22 @@ const cards = metadata.icons.map((icon) => {
 
 const homeContent = `<main>
   <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-grid" aria-hidden="true"></div>
-    <div class="hero-art" aria-hidden="true">
-      ${heroIcons.map((icon) => `<img class="hero-icon" src="${local(`assets/illustration/${icon.id}.svg`)}" alt="" width="256" height="256">`).join('\n')}
-    </div>
     <div class="hero-copy">
-      <p class="eyebrow">Design Drills / Iconic System / 001</p>
-      <h1 id="hero-title"><span>Iconic</span><em>Drills</em><small>Pack</small></h1>
+      <p class="eyebrow">Ddrills Club® / Iconic</p>
+      <h1 id="hero-title">Iconic<br>Drills Pack</h1>
       <p class="hero-lede">Rough, hand-drawn symbols built twice: as scalable illustrations and as ready-to-use custom emoji.</p>
       <div class="actions">
         <a class="button button--primary" href="#catalog">Explore all icons</a>
         <a class="button" href="${repositoryUrl}">Get the pack ↗</a>
       </div>
-      <div class="hero-foot"><span>96 approved icons</span><span>SVG / PNG</span><span>CC BY 4.0</span></div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      ${heroIcons.map((icon) => `<img class="hero-icon" src="${local(`assets/emoji-svg/${icon.id}.svg`)}" alt="" width="256" height="256">`).join('\n')}
     </div>
   </section>
 
   <section class="intro reveal" aria-labelledby="intro-title">
-    <h2 id="intro-title">One drawing.<br>Two modes.</h2>
+    <h2 id="intro-title">One icon.<br>Two formats.</h2>
     <div class="intro-copy">
       <p>Use transparent, monochrome SVGs in interfaces and editorial layouts. Use the green-field versions as emoji in Slack, Discord, documentation, and community spaces.</p>
       <p>Every icon has a stable Unicode code-point ID and downloadable SVG plus 128, 256, and 512 px PNG exports.</p>
@@ -195,7 +196,7 @@ const homeContent = `<main>
 
   <section class="catalog" id="catalog" aria-labelledby="catalog-title">
     <div class="catalog-head reveal">
-      <div><p class="eyebrow">Library / 001</p><h2 id="catalog-title">Icon pack.</h2></div>
+      <div><p class="eyebrow">96 approved icons</p><h2 id="catalog-title">Icon pack</h2></div>
       <p class="count" data-result-count>${metadata.icons.length} icons</p>
     </div>
     <div class="filters">
@@ -269,7 +270,6 @@ const usagePage = page({
   image: absolute('assets/preview.png'),
   structuredData: usageData,
   content: usageContent,
-  lightHeader: true,
 });
 
 await fs.rm(outputDir, { recursive: true, force: true });
@@ -285,6 +285,7 @@ await Promise.all([
   fs.cp(path.join(root, 'dist', 'data'), path.join(outputDir, 'assets', 'data'), { recursive: true }),
   fs.copyFile(path.join(root, 'site-src', 'styles.css'), path.join(outputDir, 'assets', 'styles.css')),
   fs.copyFile(path.join(root, 'site-src', 'app.js'), path.join(outputDir, 'assets', 'app.js')),
+  fs.cp(path.join(root, 'site-src', 'fonts'), path.join(outputDir, 'assets', 'fonts'), { recursive: true }),
   fs.copyFile(path.join(root, 'docs', 'preview.png'), path.join(outputDir, 'assets', 'preview.png')),
   fs.writeFile(path.join(outputDir, 'index.html'), home),
   fs.writeFile(path.join(outputDir, 'usage', 'index.html'), usagePage),
@@ -374,7 +375,6 @@ for (const [index, icon] of metadata.icons.entries()) {
     image: emojiPngUrl,
     structuredData: iconData,
     content: detailContent,
-    lightHeader: true,
   });
 
   const iconDir = path.join(outputDir, 'icons', icon.id);
@@ -456,7 +456,6 @@ const notFound = page({
   image: absolute('assets/preview.png'),
   structuredData: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Page not found' },
   content: `<main class="usage"><p class="eyebrow">404</p><h1>That icon<br>isn’t here.</h1><p><a class="button button--dark" href="${local('')}">Return to the catalog</a></p></main>`,
-  lightHeader: true,
 });
 
 await Promise.all([
