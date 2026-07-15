@@ -228,27 +228,29 @@ select {
 }
 
 .hero-art {
-  position: relative;
-  width: min(720px, 92vw);
-  height: clamp(250px, 34vh, 330px);
-  margin-top: 12px;
+  display: grid;
+  width: min(960px, 94vw);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: clamp(8px, 1.2vw, 16px);
+  margin-top: 42px;
 }
 
 .hero-icon {
-  position: absolute;
-  width: clamp(112px, 12vw, 170px);
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
   border-radius: var(--radius-m);
-  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.14);
   opacity: 0;
   animation: iconEnter 520ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 
-.hero-icon:nth-child(1) { top: 22%; left: 2%; rotate: -3deg; animation-delay: 100ms; }
-.hero-icon:nth-child(2) { top: 7%; left: 20%; rotate: 3deg; animation-delay: 150ms; }
-.hero-icon:nth-child(3) { top: 27%; left: 40%; z-index: 2; rotate: -2deg; animation-delay: 200ms; }
-.hero-icon:nth-child(4) { top: 3%; left: 59%; rotate: 4deg; animation-delay: 250ms; }
-.hero-icon:nth-child(5) { top: 24%; right: 2%; rotate: -3deg; animation-delay: 300ms; }
-.hero-icon:nth-child(6) { top: 43%; left: 68%; z-index: 3; width: clamp(96px, 10vw, 142px); rotate: 2deg; animation-delay: 350ms; }
+.hero-icon:nth-child(1) { animation-delay: 100ms; }
+.hero-icon:nth-child(2) { animation-delay: 150ms; }
+.hero-icon:nth-child(3) { animation-delay: 200ms; }
+.hero-icon:nth-child(4) { animation-delay: 250ms; }
+.hero-icon:nth-child(5) { animation-delay: 300ms; }
+.hero-icon:nth-child(6) { animation-delay: 350ms; }
 
 @keyframes heroEnter {
   from { opacity: 0; transform: translateY(12px); }
@@ -748,22 +750,16 @@ pre {
   }
 
   .hero-art {
-    width: 420px;
-    height: 230px;
-    margin-top: 24px;
+    width: min(100%, 340px);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 32px;
   }
 
   .hero-icon {
-    width: 104px;
+    width: 100%;
     border-radius: 10px;
   }
-
-  .hero-icon:nth-child(1) { left: 2%; }
-  .hero-icon:nth-child(2) { left: 18%; }
-  .hero-icon:nth-child(3) { left: 37%; }
-  .hero-icon:nth-child(4) { left: 55%; }
-  .hero-icon:nth-child(5) { right: 1%; }
-  .hero-icon:nth-child(6) { left: 66%; width: 88px; }
 
   .intro {
     grid-template-columns: 1fr;
