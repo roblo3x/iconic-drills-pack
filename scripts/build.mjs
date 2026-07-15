@@ -8,7 +8,7 @@ const dataFile = path.join(root, 'data', 'icons.json');
 const distDir = path.join(root, 'dist');
 const sizes = [128, 256, 512];
 const ink = '#090909';
-const field = '#0AF40B';
+const field = '#C8FF00';
 
 const metadata = JSON.parse(await fs.readFile(dataFile, 'utf8'));
 
