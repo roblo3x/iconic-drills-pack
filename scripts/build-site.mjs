@@ -8,6 +8,7 @@ const sitePath = new URL(siteUrl).pathname.replace(/\/$/, '');
 const repositoryUrl = 'https://github.com/roblo3x/iconic-drills-pack';
 const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/';
 const credit = 'Iconic Drills Pack © 2026 Roman Kuzhel, Kyrgyzstan — CC BY 4.0';
+const emojiAssetRevision = 'c8ff00';
 const metadata = JSON.parse(await fs.readFile(path.join(root, 'data', 'icons.json'), 'utf8'));
 const logoSource = await fs.readFile(path.join(root, 'site-src', 'DdrillsLogo.jsx'), 'utf8');
 const logoPaths = [...logoSource.matchAll(/<path d="([^"]+)" fill=\{fill\}\/>/g)].map((match) => match[1]);
@@ -25,6 +26,8 @@ const escapeHtml = (value) => String(value)
 const jsonLd = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
 const absolute = (value = '') => `${siteUrl}/${String(value).replace(/^\//, '')}`;
 const local = (value = '') => `${sitePath}/${String(value).replace(/^\//, '')}`.replace(/^$/, '/');
+const emojiAbsolute = (value) => `${absolute(value)}?v=${emojiAssetRevision}`;
+const emojiLocal = (value) => `${local(value)}?v=${emojiAssetRevision}`;
 const displayCategory = (value) => value.split('-').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ');
 const ddrillsLogo = (className) => `<svg class="${className}" viewBox="0 0 210 80" aria-hidden="true" focusable="false">${logoPaths.map((d) => `<path d="${d}"/>`).join('')}</svg>`;
 
@@ -38,7 +41,7 @@ function head({ title, description, canonical, image, structuredData }) {
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="${escapeHtml(canonical)}">
     <link rel="license" href="${licenseUrl}">
-    <link rel="icon" type="image/svg+xml" href="${local('assets/emoji-svg/1F34E.svg')}">
+    <link rel="icon" type="image/svg+xml" href="${emojiLocal('assets/emoji-svg/1F34E.svg')}">
     <link rel="sitemap" type="application/xml" href="${absolute('sitemap.xml')}">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Iconic Drills Pack">
@@ -167,7 +170,7 @@ const homeContent = `<main>
       </div>
     </div>
     <div class="hero-art" aria-hidden="true">
-      ${heroIcons.map((icon) => `<img class="hero-icon" src="${local(`assets/emoji-svg/${icon.id}.svg`)}" alt="" width="256" height="256">`).join('\n')}
+      ${heroIcons.map((icon) => `<img class="hero-icon" src="${emojiLocal(`assets/emoji-svg/${icon.id}.svg`)}" alt="" width="256" height="256">`).join('\n')}
     </div>
   </section>
 
@@ -188,7 +191,7 @@ const homeContent = `<main>
     </div>
     <div class="format">
       <figure>
-        <img src="${local(`assets/emoji-svg/${sampleIcon.id}.svg`)}" alt="${escapeHtml(sampleIcon.name)} as a Ddrills acid-lime custom emoji" width="430" height="430">
+        <img src="${emojiLocal(`assets/emoji-svg/${sampleIcon.id}.svg`)}" alt="${escapeHtml(sampleIcon.name)} as a Ddrills acid-lime custom emoji" width="430" height="430">
         <figcaption><span>Custom emoji</span><span>SVG + PNG</span></figcaption>
       </figure>
     </div>
@@ -295,8 +298,8 @@ await Promise.all([
 for (const [index, icon] of metadata.icons.entries()) {
   const canonical = absolute(`icons/${icon.id}/`);
   const illustrationUrl = absolute(`assets/illustration/${icon.id}.svg`);
-  const emojiSvgUrl = absolute(`assets/emoji-svg/${icon.id}.svg`);
-  const emojiPngUrl = absolute(`assets/emoji-png/512/${icon.id}.png`);
+  const emojiSvgUrl = emojiAbsolute(`assets/emoji-svg/${icon.id}.svg`);
+  const emojiPngUrl = emojiAbsolute(`assets/emoji-png/512/${icon.id}.png`);
   const previous = metadata.icons[(index - 1 + metadata.icons.length) % metadata.icons.length];
   const next = metadata.icons[(index + 1) % metadata.icons.length];
   const description = `Download the rough hand-drawn ${icon.name} icon by Roman Kuzhel as a transparent SVG illustration or Ddrills acid-lime custom emoji in SVG and PNG.`;
@@ -340,7 +343,7 @@ for (const [index, icon] of metadata.icons.entries()) {
         </dl>
         <div class="actions">
           <a class="button button--dark" href="${local(`assets/illustration/${icon.id}.svg`)}" download>Download SVG</a>
-          <a class="button" href="${local(`assets/emoji-png/512/${icon.id}.png`)}" download>Download PNG</a>
+          <a class="button" href="${emojiLocal(`assets/emoji-png/512/${icon.id}.png`)}" download>Download PNG</a>
         </div>
       </div>
     </section>
@@ -352,13 +355,13 @@ for (const [index, icon] of metadata.icons.entries()) {
         <a href="${local(`assets/illustration/${icon.id}.svg`)}" download>Download illustration</a>
       </div>
       <div class="asset-preview">
-        <img src="${local(`assets/emoji-svg/${icon.id}.svg`)}" alt="Ddrills acid-lime ${escapeHtml(icon.name)} custom emoji" width="360" height="360">
+        <img src="${emojiLocal(`assets/emoji-svg/${icon.id}.svg`)}" alt="Ddrills acid-lime ${escapeHtml(icon.name)} custom emoji" width="360" height="360">
         <h2>Custom emoji</h2>
         <p>Acid-lime SVG plus compact PNG exports for chat and community tools.</p>
-        <a href="${local(`assets/emoji-svg/${icon.id}.svg`)}" download>SVG</a> ·
-        <a href="${local(`assets/emoji-png/128/${icon.id}.png`)}" download>128 PNG</a> ·
-        <a href="${local(`assets/emoji-png/256/${icon.id}.png`)}" download>256 PNG</a> ·
-        <a href="${local(`assets/emoji-png/512/${icon.id}.png`)}" download>512 PNG</a>
+        <a href="${emojiLocal(`assets/emoji-svg/${icon.id}.svg`)}" download>SVG</a> ·
+        <a href="${emojiLocal(`assets/emoji-png/128/${icon.id}.png`)}" download>128 PNG</a> ·
+        <a href="${emojiLocal(`assets/emoji-png/256/${icon.id}.png`)}" download>256 PNG</a> ·
+        <a href="${emojiLocal(`assets/emoji-png/512/${icon.id}.png`)}" download>512 PNG</a>
       </div>
     </section>
     <section class="license-note">
@@ -395,7 +398,7 @@ const imageSitemap = `<?xml version="1.0" encoding="UTF-8"?>
 ${metadata.icons.map((icon) => `  <url>
     <loc>${absolute(`icons/${icon.id}/`)}</loc>
     <image:image><image:loc>${absolute(`assets/illustration/${icon.id}.svg`)}</image:loc><image:title>${escapeHtml(icon.name)} SVG illustration</image:title><image:caption>Hand-drawn ${escapeHtml(icon.name)} icon by Roman Kuzhel</image:caption></image:image>
-    <image:image><image:loc>${absolute(`assets/emoji-png/512/${icon.id}.png`)}</image:loc><image:title>${escapeHtml(icon.name)} custom emoji</image:title><image:caption>Ddrills acid-lime custom emoji by Roman Kuzhel</image:caption></image:image>
+    <image:image><image:loc>${emojiAbsolute(`assets/emoji-png/512/${icon.id}.png`)}</image:loc><image:title>${escapeHtml(icon.name)} custom emoji</image:title><image:caption>Ddrills acid-lime custom emoji by Roman Kuzhel</image:caption></image:image>
   </url>`).join('\n')}
 </urlset>
 `;
@@ -445,8 +448,8 @@ ${metadata.icons.map((icon) => `## ${icon.emoji} ${icon.name}
 - Keywords: ${icon.keywords.join(', ')}
 - Page: ${absolute(`icons/${icon.id}/`)}
 - Illustration SVG: ${absolute(`assets/illustration/${icon.id}.svg`)}
-- Emoji SVG: ${absolute(`assets/emoji-svg/${icon.id}.svg`)}
-- Emoji PNG: ${absolute(`assets/emoji-png/512/${icon.id}.png`)}`).join('\n\n')}
+- Emoji SVG: ${emojiAbsolute(`assets/emoji-svg/${icon.id}.svg`)}
+- Emoji PNG: ${emojiAbsolute(`assets/emoji-png/512/${icon.id}.png`)}`).join('\n\n')}
 `;
 
 const notFound = page({
