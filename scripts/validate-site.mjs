@@ -24,6 +24,7 @@ const llms = await read('llms.txt');
 if (!home.includes('application/ld+json')) errors.push('Homepage is missing JSON-LD');
 if (!home.includes('data-icon-item')) errors.push('Homepage is missing static icon entries');
 if (!home.includes('class="brand-mark"')) errors.push('Homepage is missing the official Ddrills wordmark');
+if (!home.includes('assets/emoji-svg/1F34E.svg?v=c8ff00')) errors.push('Homepage emoji URLs are missing the cache-busting revision');
 if (!robots.includes('OAI-SearchBot')) errors.push('robots.txt is missing OAI-SearchBot guidance');
 if (!robots.includes('GPTBot\nDisallow: /')) errors.push('robots.txt does not separate search from training access');
 if (!llms.includes('Roman Kuzhel, Kyrgyzstan')) errors.push('llms.txt is missing creator attribution');
@@ -42,6 +43,7 @@ for (const icon of metadata.icons) {
   if (!detail.includes('"@type":"ImageObject"')) errors.push(`${icon.id}: ImageObject JSON-LD is missing`);
   if (!detail.includes('Roman Kuzhel, Kyrgyzstan')) errors.push(`${icon.id}: attribution is missing`);
   if (!detail.includes('rel="canonical"')) errors.push(`${icon.id}: canonical URL is missing`);
+  if (!detail.includes(`assets/emoji-svg/${icon.id}.svg?v=c8ff00`)) errors.push(`${icon.id}: emoji URL is missing the cache-busting revision`);
   if (!sitemap.includes(`/icons/${icon.id}/`)) errors.push(`${icon.id}: missing from sitemap.xml`);
   if (!imageSitemap.includes(`/assets/illustration/${icon.id}.svg`)) errors.push(`${icon.id}: missing from image sitemap`);
 
