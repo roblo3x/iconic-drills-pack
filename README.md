@@ -1,6 +1,6 @@
 # Iconic Drills Pack
 
-A rough, hand-drawn icon system that works both as scalable SVG illustrations and as custom emoji.
+A rough, hand-drawn icon system by **Roman Kuzhel, Kyrgyzstan** that works both as scalable SVG illustrations and as custom emoji.
 
 > Alpha release: the repository currently contains the first 96 visually approved icons. More icons will be added after review.
 
@@ -20,7 +20,7 @@ The master artwork uses a `256 × 256` viewBox and a 24 px safe area. Unicode co
 ## Install
 
 ```sh
-npm install github:roblo3x/iconic-drills-pack
+npm install github:roblo3x/iconic-drills-pack#v0.1.0-alpha.1
 ```
 
 Publishing to the npm registry is planned after the public alpha review.
@@ -70,4 +70,6 @@ The build derives every public format from the master SVG. Validation rejects fi
 - Icon artwork: CC BY 4.0 — see [`LICENSE-ICONS`](LICENSE-ICONS) and [`ATTRIBUTION.md`](ATTRIBUTION.md).
 - Unicode names and grouping metadata: Unicode License v3 — see [`LICENSE-UNICODE`](LICENSE-UNICODE) and [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-The artwork is AI-assisted, human-directed, selected, and curated. No OpenMoji artwork is included.
+Commercial use is permitted only under the CC BY 4.0 terms, including attribution to **Roman Kuzhel, Kyrgyzstan**. A ready-to-copy credit is provided in [`ATTRIBUTION.md`](ATTRIBUTION.md).
+
+The artwork is AI-assisted, human-directed, selected, edited, vectorized, and curated by Roman Kuzhel. No OpenMoji artwork is included.

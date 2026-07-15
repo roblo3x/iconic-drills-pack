@@ -41,7 +41,8 @@ for (const item of approved) {
   const body = source.match(/<svg\b[^>]*>([\s\S]*)<\/svg>\s*$/i)?.[1]?.trim();
   if (!body) throw new Error(`Invalid source SVG: ${sourceFile}`);
 
-  const master = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">${body}</svg>\n`;
+  const attribution = '<!-- Iconic Drills Pack © 2026 Roman Kuzhel, Kyrgyzstan | CC BY 4.0 | https://github.com/roblo3x/iconic-drills-pack -->';
+  const master = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">${attribution}${body}</svg>\n`;
   await fs.writeFile(path.join(targetIconsDir, `${item.hexcode}.svg`), master);
 
   const keywords = [...new Set(record.name.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean))];
@@ -69,6 +70,18 @@ const data = {
   version: 1,
   status: 'alpha',
   unicodeVersion: '17.0',
+  creator: {
+    name: 'Roman Kuzhel',
+    country: 'Kyrgyzstan',
+    attribution: 'Roman Kuzhel, Kyrgyzstan',
+    url: 'https://github.com/roblo3x',
+  },
+  license: {
+    name: 'Creative Commons Attribution 4.0 International',
+    spdx: 'CC-BY-4.0',
+    url: 'https://creativecommons.org/licenses/by/4.0/',
+  },
+  source: 'https://github.com/roblo3x/iconic-drills-pack',
   count: icons.length,
   icons,
 };

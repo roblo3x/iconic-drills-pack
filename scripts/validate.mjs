@@ -9,6 +9,8 @@ const seenEmoji = new Set();
 
 if (metadata.version !== 1) errors.push('data/icons.json: unsupported manifest version');
 if (metadata.status !== 'alpha') errors.push('data/icons.json: initial release must remain alpha');
+if (metadata.creator?.attribution !== 'Roman Kuzhel, Kyrgyzstan') errors.push('data/icons.json: creator attribution is missing or incorrect');
+if (metadata.license?.spdx !== 'CC-BY-4.0') errors.push('data/icons.json: icon license must be CC-BY-4.0');
 if (metadata.icons.length !== 96) errors.push(`data/icons.json: expected 96 approved icons, found ${metadata.icons.length}`);
 
 for (const icon of metadata.icons) {
@@ -31,6 +33,7 @@ for (const icon of metadata.icons) {
   if (/<(?:script|image|foreignObject|text)\b/i.test(source)) errors.push(`${icon.id}: unsafe or unsupported SVG element`);
   if (/\b(?:href|xlink:href)=|url\s*\(/i.test(source)) errors.push(`${icon.id}: external references are forbidden`);
   if (!source.includes('fill="#090909"')) errors.push(`${icon.id}: master ink must be #090909`);
+  if (!source.includes('Roman Kuzhel, Kyrgyzstan | CC BY 4.0')) errors.push(`${icon.id}: embedded attribution is missing`);
 
   const illustrationPath = path.join(root, 'dist', 'illustration', `${icon.id}.svg`);
   const emojiSvgPath = path.join(root, 'dist', 'emoji-svg', `${icon.id}.svg`);

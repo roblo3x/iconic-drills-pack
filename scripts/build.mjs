@@ -47,7 +47,16 @@ for (const icon of metadata.icons) {
 await fs.writeFile(path.join(distDir, 'data', 'icons.json'), `${JSON.stringify(metadata, null, 2)}\n`);
 
 const publicIcons = metadata.icons.map((icon) => ({ ...icon }));
-const runtime = `const icons = Object.freeze(${JSON.stringify(publicIcons)}.map((icon) => Object.freeze(icon)));
+const publicPack = {
+  version: metadata.version,
+  status: metadata.status,
+  unicodeVersion: metadata.unicodeVersion,
+  creator: metadata.creator,
+  license: metadata.license,
+  source: metadata.source,
+};
+const runtime = `const pack = Object.freeze(${JSON.stringify(publicPack)});
+const icons = Object.freeze(${JSON.stringify(publicIcons)}.map((icon) => Object.freeze(icon)));
 const byId = new Map(icons.map((icon) => [icon.id, icon]));
 const byAlias = new Map();
 
@@ -65,7 +74,7 @@ for (const icon of icons) {
   byAlias.set(withoutVariationSelectors(toCodepoints(icon.emoji)), icon);
 }
 
-export { icons };
+export { icons, pack };
 
 export function getIcon(value) {
   if (value == null) return undefined;
@@ -102,6 +111,24 @@ export function getAssetPath(value, variant = 'illustration', size = 128) {
 
 const types = `export type IconicCategory = string;
 
+export interface IconicPack {
+  readonly version: number;
+  readonly status: string;
+  readonly unicodeVersion: string;
+  readonly creator: {
+    readonly name: string;
+    readonly country: string;
+    readonly attribution: string;
+    readonly url: string;
+  };
+  readonly license: {
+    readonly name: string;
+    readonly spdx: 'CC-BY-4.0';
+    readonly url: string;
+  };
+  readonly source: string;
+}
+
 export interface IconicIcon {
   readonly id: string;
   readonly unicodeSequence: string;
@@ -117,6 +144,7 @@ export interface IconicIcon {
   };
 }
 
+export declare const pack: IconicPack;
 export declare const icons: readonly IconicIcon[];
 export declare function toCodepoints(value: string, options?: { stripVariationSelectors?: boolean }): string;
 export declare function getIcon(value: string): IconicIcon | undefined;
