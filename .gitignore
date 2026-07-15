@@ -1,3 +1,5 @@
 node_modules/
+.playwright-cli/
+site-dist/
 *.tgz
 .DS_Store

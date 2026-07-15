@@ -2,6 +2,8 @@
 
 A rough, hand-drawn icon system by **Roman Kuzhel, Kyrgyzstan** that works both as scalable SVG illustrations and as custom emoji.
 
+**[Browse the searchable icon catalog](https://roblo3x.github.io/iconic-drills-pack/)**
+
 > Alpha release: the repository currently contains the first 96 visually approved icons. More icons will be added after review.
 
 ![Preview of the first 96 Iconic Drills emoji](docs/preview.png)
@@ -60,9 +62,12 @@ For inline emoji on the web:
 npm install
 npm test
 npm run pack:check
+npm run site:test
 ```
 
 The build derives every public format from the master SVG. Validation rejects fixed dimensions, unsafe SVG elements, external references, duplicate IDs, missing builds, and oversized 128 px emoji PNGs.
+
+The static catalog generates one crawlable page per icon, structured image-license metadata, XML and image sitemaps, crawler rules, and an `llms.txt` index for AI-assisted discovery.
 
 ## Licenses
 
