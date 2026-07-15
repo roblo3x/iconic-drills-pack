@@ -1,0 +1,7 @@
+This repository contains materials under multiple licenses:
+
+- Source code and build tooling: MIT (`LICENSE-CODE`).
+- Icon artwork and derived visual assets: CC BY 4.0 (`LICENSE-ICONS`).
+- Unicode names and grouping metadata: Unicode License v3 (`LICENSE-UNICODE`).
+
+See `ATTRIBUTION.md` and `THIRD_PARTY_NOTICES.md` for attribution details.

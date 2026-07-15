@@ -1,0 +1,56 @@
+{
+  "name": "iconic-drills-pack",
+  "version": "0.1.0-alpha.0",
+  "description": "A rough, hand-drawn SVG illustration and emoji pack by DDRILLS.",
+  "type": "module",
+  "sideEffects": false,
+  "license": "(MIT AND CC-BY-4.0 AND Unicode-3.0)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblo3x/iconic-drills-pack.git"
+  },
+  "homepage": "https://github.com/roblo3x/iconic-drills-pack#readme",
+  "bugs": "https://github.com/roblo3x/iconic-drills-pack/issues",
+  "keywords": [
+    "emoji",
+    "icons",
+    "illustrations",
+    "svg",
+    "ddrills"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./data": "./dist/data/icons.json",
+    "./illustration/*": "./dist/illustration/*",
+    "./emoji-svg/*": "./dist/emoji-svg/*",
+    "./emoji-png/128/*": "./dist/emoji-png/128/*",
+    "./emoji-png/256/*": "./dist/emoji-png/256/*",
+    "./emoji-png/512/*": "./dist/emoji-png/512/*"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "ATTRIBUTION.md",
+    "LICENSE-CODE",
+    "LICENSE-ICONS",
+    "LICENSE-UNICODE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "bootstrap": "node scripts/bootstrap-approved.mjs",
+    "build": "node scripts/build.mjs && node scripts/build-preview.mjs",
+    "preview": "node scripts/build-preview.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run build && npm run validate && node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
