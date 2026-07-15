@@ -52,10 +52,12 @@ function head({ title, description, canonical, image, structuredData }) {
 
 function header(light = false) {
   return `<header class="site-header${light ? ' site-header--light' : ''}">
-    <a class="brand" href="${local('')}">ICONIC / DRILLS</a>
+    <a class="brand" href="${local('')}" aria-label="Ddrills Club — Iconic Pack">
+      <b>ddrills club®</b><span>/ iconic pack</span>
+    </a>
     <nav class="header-links" aria-label="Primary navigation">
-      <a href="${local('#catalog')}">Catalog</a>
-      <a href="${local('usage/')}">Usage &amp; license</a>
+      <a href="${local('#catalog')}">Pack</a>
+      <a href="${local('usage/')}">License</a>
       <a href="${repositoryUrl}">GitHub ↗</a>
     </nav>
   </header>`;
@@ -63,6 +65,7 @@ function header(light = false) {
 
 function footer() {
   return `<footer class="site-footer">
+    <div class="footer-brand">ddrills club® <span>/ iconic</span></div>
     <p>${credit}. Commercial use requires attribution.</p>
     <p><a href="${local('usage/')}">How to credit</a> · <a href="${repositoryUrl}">Source on GitHub</a></p>
   </footer>`;
@@ -151,22 +154,24 @@ const cards = metadata.icons.map((icon) => {
 
 const homeContent = `<main>
   <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-grid" aria-hidden="true"></div>
     <div class="hero-art" aria-hidden="true">
-      ${heroIcons.map((icon) => `<img class="hero-icon" src="${local(`assets/emoji-svg/${icon.id}.svg`)}" alt="" width="256" height="256">`).join('\n')}
+      ${heroIcons.map((icon) => `<img class="hero-icon" src="${local(`assets/illustration/${icon.id}.svg`)}" alt="" width="256" height="256">`).join('\n')}
     </div>
     <div class="hero-copy">
-      <p class="eyebrow">96 approved icons · SVG + PNG · CC BY 4.0</p>
-      <h1 id="hero-title">Iconic<span>Drills Pack</span></h1>
+      <p class="eyebrow">Design Drills / Iconic System / 001</p>
+      <h1 id="hero-title"><span>Iconic</span><em>Drills</em><small>Pack</small></h1>
       <p class="hero-lede">Rough, hand-drawn symbols built twice: as scalable illustrations and as ready-to-use custom emoji.</p>
       <div class="actions">
         <a class="button button--primary" href="#catalog">Explore all icons</a>
         <a class="button" href="${repositoryUrl}">Get the pack ↗</a>
       </div>
+      <div class="hero-foot"><span>96 approved icons</span><span>SVG / PNG</span><span>CC BY 4.0</span></div>
     </div>
   </section>
 
   <section class="intro reveal" aria-labelledby="intro-title">
-    <h2 id="intro-title">One drawing.<br>Two working lives.</h2>
+    <h2 id="intro-title">One drawing.<br>Two modes.</h2>
     <div class="intro-copy">
       <p>Use transparent, monochrome SVGs in interfaces and editorial layouts. Use the green-field versions as emoji in Slack, Discord, documentation, and community spaces.</p>
       <p>Every icon has a stable Unicode code-point ID and downloadable SVG plus 128, 256, and 512 px PNG exports.</p>
@@ -190,12 +195,12 @@ const homeContent = `<main>
 
   <section class="catalog" id="catalog" aria-labelledby="catalog-title">
     <div class="catalog-head reveal">
-      <h2 id="catalog-title">The full set.</h2>
+      <div><p class="eyebrow">Library / 001</p><h2 id="catalog-title">Icon pack.</h2></div>
       <p class="count" data-result-count>${metadata.icons.length} icons</p>
     </div>
     <div class="filters">
       <label for="icon-search">Search icons</label>
-      <input id="icon-search" type="search" placeholder="Search apple, travel, face…" autocomplete="off" data-icon-search>
+      <input id="icon-search" type="search" placeholder="Search: apple, travel, face…" autocomplete="off" data-icon-search>
       <label for="category-filter">Filter by category</label>
       <select id="category-filter" data-category-filter>
         <option value="all">All categories</option>
@@ -322,7 +327,7 @@ for (const [index, icon] of metadata.icons.entries()) {
   const detailContent = `<main class="detail-main">
     <nav class="breadcrumb" aria-label="Breadcrumb"><a href="${local('')}">Iconic Drills Pack</a> / <a href="${local(`#catalog`)}">Catalog</a> / ${escapeHtml(icon.name)}</nav>
     <section class="detail-hero">
-      <div class="detail-visual"><img src="${local(`assets/emoji-svg/${icon.id}.svg`)}" alt="Green custom emoji version of the hand-drawn ${escapeHtml(icon.name)}" width="512" height="512"></div>
+      <div class="detail-visual"><img src="${local(`assets/illustration/${icon.id}.svg`)}" alt="Hand-drawn ${escapeHtml(icon.name)} from the Iconic Drills Pack" width="512" height="512"></div>
       <div class="detail-copy">
         <span class="emoji-glyph" aria-hidden="true">${escapeHtml(icon.emoji)}</span>
         <h1>${escapeHtml(icon.name)}</h1>
