@@ -8,4 +8,4 @@ The pack is curated rather than generated directly into the public collection.
 4. Do not include text, raster images, external URLs, scripts, fonts, gradients, or filters.
 5. Run `npm test` and inspect the result at 16, 20, 24, and 32 px before submitting a pull request.
 
-Contributors must have the right to submit the artwork under CC BY 4.0 and the code under MIT.
+Contributors must have the right to submit the artwork under CC BY 4.0 and the code under MIT. External artwork remains separately attributed unless its creator and Roman Kuzhel agree otherwise in writing; contributions do not change the attribution of the original collection.

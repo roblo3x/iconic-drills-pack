@@ -1,5 +1,23 @@
 export type IconicCategory = string;
 
+export interface IconicPack {
+  readonly version: number;
+  readonly status: string;
+  readonly unicodeVersion: string;
+  readonly creator: {
+    readonly name: string;
+    readonly country: string;
+    readonly attribution: string;
+    readonly url: string;
+  };
+  readonly license: {
+    readonly name: string;
+    readonly spdx: 'CC-BY-4.0';
+    readonly url: string;
+  };
+  readonly source: string;
+}
+
 export interface IconicIcon {
   readonly id: string;
   readonly unicodeSequence: string;
@@ -15,6 +33,7 @@ export interface IconicIcon {
   };
 }
 
+export declare const pack: IconicPack;
 export declare const icons: readonly IconicIcon[];
 export declare function toCodepoints(value: string, options?: { stripVariationSelectors?: boolean }): string;
 export declare function getIcon(value: string): IconicIcon | undefined;

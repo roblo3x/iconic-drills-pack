@@ -2,6 +2,18 @@
   "version": 1,
   "status": "alpha",
   "unicodeVersion": "17.0",
+  "creator": {
+    "name": "Roman Kuzhel",
+    "country": "Kyrgyzstan",
+    "attribution": "Roman Kuzhel, Kyrgyzstan",
+    "url": "https://github.com/roblo3x"
+  },
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "source": "https://github.com/roblo3x/iconic-drills-pack",
   "count": 96,
   "icons": [
     {

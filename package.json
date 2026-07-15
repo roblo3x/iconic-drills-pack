@@ -1,7 +1,8 @@
 {
   "name": "iconic-drills-pack",
-  "version": "0.1.0-alpha.0",
-  "description": "A rough, hand-drawn SVG illustration and emoji pack by DDRILLS.",
+  "version": "0.1.0-alpha.1",
+  "description": "A rough, hand-drawn SVG illustration and emoji pack by Roman Kuzhel.",
+  "author": "Roman Kuzhel, Kyrgyzstan",
   "type": "module",
   "sideEffects": false,
   "license": "(MIT AND CC-BY-4.0 AND Unicode-3.0)",

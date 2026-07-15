@@ -1,9 +1,11 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { getAssetPath, getIcon, icons, searchIcons, toCodepoints } from '../dist/index.js';
+import { getAssetPath, getIcon, icons, pack, searchIcons, toCodepoints } from '../dist/index.js';
 
 test('ships only the approved alpha set', () => {
   assert.equal(icons.length, 96);
+  assert.equal(pack.creator.attribution, 'Roman Kuzhel, Kyrgyzstan');
+  assert.equal(pack.license.spdx, 'CC-BY-4.0');
 });
 
 test('looks up an icon by emoji and Unicode id', () => {
