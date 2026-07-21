@@ -38,44 +38,47 @@
       }
     },
     {
-      "id": "1F621",
-      "unicodeSequence": "1F621",
-      "emoji": "😡",
-      "name": "enraged face",
+      "id": "1F602",
+      "unicodeSequence": "1F602",
+      "emoji": "😂",
+      "name": "face with tears of joy",
       "category": "smileys-and-emotion",
-      "subcategory": "face-negative",
+      "subcategory": "face-smiling",
       "keywords": [
-        "enraged",
-        "face"
+        "face",
+        "with",
+        "tears",
+        "of",
+        "joy"
       ],
       "assets": {
-        "illustration": "illustration/1F621.svg",
-        "emojiSvg": "emoji-svg/1F621.svg",
+        "illustration": "illustration/1F602.svg",
+        "emojiSvg": "emoji-svg/1F602.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F621.png",
-          "256": "emoji-png/256/1F621.png",
-          "512": "emoji-png/512/1F621.png"
+          "128": "emoji-png/128/1F602.png",
+          "256": "emoji-png/256/1F602.png",
+          "512": "emoji-png/512/1F602.png"
         }
       }
     },
     {
-      "id": "1F634",
-      "unicodeSequence": "1F634",
-      "emoji": "😴",
-      "name": "sleeping face",
+      "id": "1F609",
+      "unicodeSequence": "1F609",
+      "emoji": "😉",
+      "name": "winking face",
       "category": "smileys-and-emotion",
-      "subcategory": "face-sleepy",
+      "subcategory": "face-smiling",
       "keywords": [
-        "sleeping",
+        "winking",
         "face"
       ],
       "assets": {
-        "illustration": "illustration/1F634.svg",
-        "emojiSvg": "emoji-svg/1F634.svg",
+        "illustration": "illustration/1F609.svg",
+        "emojiSvg": "emoji-svg/1F609.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F634.png",
-          "256": "emoji-png/256/1F634.png",
-          "512": "emoji-png/512/1F634.png"
+          "128": "emoji-png/128/1F609.png",
+          "256": "emoji-png/256/1F609.png",
+          "512": "emoji-png/512/1F609.png"
         }
       }
     },
@@ -104,185 +107,174 @@
       }
     },
     {
-      "id": "23F0",
-      "unicodeSequence": "23F0",
-      "emoji": "⏰️",
-      "name": "alarm clock",
-      "category": "travel-and-places",
-      "subcategory": "time",
+      "id": "1F618",
+      "unicodeSequence": "1F618",
+      "emoji": "😘",
+      "name": "face blowing a kiss",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-affection",
       "keywords": [
-        "alarm",
-        "clock"
+        "face",
+        "blowing",
+        "a",
+        "kiss"
       ],
       "assets": {
-        "illustration": "illustration/23F0.svg",
-        "emojiSvg": "emoji-svg/23F0.svg",
+        "illustration": "illustration/1F618.svg",
+        "emojiSvg": "emoji-svg/1F618.svg",
         "emojiPng": {
-          "128": "emoji-png/128/23F0.png",
-          "256": "emoji-png/256/23F0.png",
-          "512": "emoji-png/512/23F0.png"
+          "128": "emoji-png/128/1F618.png",
+          "256": "emoji-png/256/1F618.png",
+          "512": "emoji-png/512/1F618.png"
         }
       }
     },
     {
-      "id": "2615",
-      "unicodeSequence": "2615",
-      "emoji": "☕️",
-      "name": "hot beverage",
-      "category": "food-and-drink",
-      "subcategory": "drink",
+      "id": "1F914",
+      "unicodeSequence": "1F914",
+      "emoji": "🤔",
+      "name": "thinking face",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-hand",
       "keywords": [
-        "hot",
-        "beverage"
+        "thinking",
+        "face"
       ],
       "assets": {
-        "illustration": "illustration/2615.svg",
-        "emojiSvg": "emoji-svg/2615.svg",
+        "illustration": "illustration/1F914.svg",
+        "emojiSvg": "emoji-svg/1F914.svg",
         "emojiPng": {
-          "128": "emoji-png/128/2615.png",
-          "256": "emoji-png/256/2615.png",
-          "512": "emoji-png/512/2615.png"
+          "128": "emoji-png/128/1F914.png",
+          "256": "emoji-png/256/1F914.png",
+          "512": "emoji-png/512/1F914.png"
         }
       }
     },
     {
-      "id": "1F6BF",
-      "unicodeSequence": "1F6BF",
-      "emoji": "🚿",
-      "name": "shower",
-      "category": "objects",
-      "subcategory": "household",
+      "id": "1F634",
+      "unicodeSequence": "1F634",
+      "emoji": "😴",
+      "name": "sleeping face",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-sleepy",
       "keywords": [
-        "shower"
+        "sleeping",
+        "face"
       ],
       "assets": {
-        "illustration": "illustration/1F6BF.svg",
-        "emojiSvg": "emoji-svg/1F6BF.svg",
+        "illustration": "illustration/1F634.svg",
+        "emojiSvg": "emoji-svg/1F634.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F6BF.png",
-          "256": "emoji-png/256/1F6BF.png",
-          "512": "emoji-png/512/1F6BF.png"
+          "128": "emoji-png/128/1F634.png",
+          "256": "emoji-png/256/1F634.png",
+          "512": "emoji-png/512/1F634.png"
         }
       }
     },
     {
-      "id": "1F373",
-      "unicodeSequence": "1F373",
-      "emoji": "🍳",
-      "name": "cooking",
-      "category": "food-and-drink",
-      "subcategory": "food-prepared",
+      "id": "1F60E",
+      "unicodeSequence": "1F60E",
+      "emoji": "😎",
+      "name": "smiling face with sunglasses",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-glasses",
       "keywords": [
-        "cooking"
+        "smiling",
+        "face",
+        "with",
+        "sunglasses"
       ],
       "assets": {
-        "illustration": "illustration/1F373.svg",
-        "emojiSvg": "emoji-svg/1F373.svg",
+        "illustration": "illustration/1F60E.svg",
+        "emojiSvg": "emoji-svg/1F60E.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F373.png",
-          "256": "emoji-png/256/1F373.png",
-          "512": "emoji-png/512/1F373.png"
+          "128": "emoji-png/128/1F60E.png",
+          "256": "emoji-png/256/1F60E.png",
+          "512": "emoji-png/512/1F60E.png"
         }
       }
     },
     {
-      "id": "1F68C",
-      "unicodeSequence": "1F68C",
-      "emoji": "🚌",
-      "name": "bus",
-      "category": "travel-and-places",
-      "subcategory": "transport-ground",
+      "id": "1F615",
+      "unicodeSequence": "1F615",
+      "emoji": "😕",
+      "name": "confused face",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-concerned",
       "keywords": [
-        "bus"
+        "confused",
+        "face"
       ],
       "assets": {
-        "illustration": "illustration/1F68C.svg",
-        "emojiSvg": "emoji-svg/1F68C.svg",
+        "illustration": "illustration/1F615.svg",
+        "emojiSvg": "emoji-svg/1F615.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F68C.png",
-          "256": "emoji-png/256/1F68C.png",
-          "512": "emoji-png/512/1F68C.png"
+          "128": "emoji-png/128/1F615.png",
+          "256": "emoji-png/256/1F615.png",
+          "512": "emoji-png/512/1F615.png"
         }
       }
     },
     {
-      "id": "1F6B2",
-      "unicodeSequence": "1F6B2",
-      "emoji": "🚲️",
-      "name": "bicycle",
-      "category": "travel-and-places",
-      "subcategory": "transport-ground",
+      "id": "1F632",
+      "unicodeSequence": "1F632",
+      "emoji": "😲",
+      "name": "astonished face",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-concerned",
       "keywords": [
-        "bicycle"
+        "astonished",
+        "face"
       ],
       "assets": {
-        "illustration": "illustration/1F6B2.svg",
-        "emojiSvg": "emoji-svg/1F6B2.svg",
+        "illustration": "illustration/1F632.svg",
+        "emojiSvg": "emoji-svg/1F632.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F6B2.png",
-          "256": "emoji-png/256/1F6B2.png",
-          "512": "emoji-png/512/1F6B2.png"
+          "128": "emoji-png/128/1F632.png",
+          "256": "emoji-png/256/1F632.png",
+          "512": "emoji-png/512/1F632.png"
         }
       }
     },
     {
-      "id": "1F6B6",
-      "unicodeSequence": "1F6B6",
-      "emoji": "🚶",
-      "name": "person walking",
-      "category": "people-and-body",
-      "subcategory": "person-activity",
+      "id": "1F622",
+      "unicodeSequence": "1F622",
+      "emoji": "😢",
+      "name": "crying face",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-concerned",
       "keywords": [
-        "person",
-        "walking"
+        "crying",
+        "face"
       ],
       "assets": {
-        "illustration": "illustration/1F6B6.svg",
-        "emojiSvg": "emoji-svg/1F6B6.svg",
+        "illustration": "illustration/1F622.svg",
+        "emojiSvg": "emoji-svg/1F622.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F6B6.png",
-          "256": "emoji-png/256/1F6B6.png",
-          "512": "emoji-png/512/1F6B6.png"
+          "128": "emoji-png/128/1F622.png",
+          "256": "emoji-png/256/1F622.png",
+          "512": "emoji-png/512/1F622.png"
         }
       }
     },
     {
-      "id": "2708",
-      "unicodeSequence": "2708-FE0F",
-      "emoji": "✈️",
-      "name": "airplane",
-      "category": "travel-and-places",
-      "subcategory": "transport-air",
+      "id": "1F621",
+      "unicodeSequence": "1F621",
+      "emoji": "😡",
+      "name": "enraged face",
+      "category": "smileys-and-emotion",
+      "subcategory": "face-negative",
       "keywords": [
-        "airplane"
+        "enraged",
+        "face"
       ],
       "assets": {
-        "illustration": "illustration/2708.svg",
-        "emojiSvg": "emoji-svg/2708.svg",
+        "illustration": "illustration/1F621.svg",
+        "emojiSvg": "emoji-svg/1F621.svg",
         "emojiPng": {
-          "128": "emoji-png/128/2708.png",
-          "256": "emoji-png/256/2708.png",
-          "512": "emoji-png/512/2708.png"
-        }
-      }
-    },
-    {
-      "id": "1F4BB",
-      "unicodeSequence": "1F4BB",
-      "emoji": "💻️",
-      "name": "laptop",
-      "category": "objects",
-      "subcategory": "computer",
-      "keywords": [
-        "laptop"
-      ],
-      "assets": {
-        "illustration": "illustration/1F4BB.svg",
-        "emojiSvg": "emoji-svg/1F4BB.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F4BB.png",
-          "256": "emoji-png/256/1F4BB.png",
-          "512": "emoji-png/512/1F4BB.png"
+          "128": "emoji-png/128/1F621.png",
+          "256": "emoji-png/256/1F621.png",
+          "512": "emoji-png/512/1F621.png"
         }
       }
     },
@@ -308,44 +300,23 @@
       }
     },
     {
-      "id": "1F4D6",
-      "unicodeSequence": "1F4D6",
-      "emoji": "📖",
-      "name": "open book",
-      "category": "objects",
-      "subcategory": "book-paper",
+      "id": "1F6B6",
+      "unicodeSequence": "1F6B6",
+      "emoji": "🚶",
+      "name": "person walking",
+      "category": "people-and-body",
+      "subcategory": "person-activity",
       "keywords": [
-        "open",
-        "book"
+        "person",
+        "walking"
       ],
       "assets": {
-        "illustration": "illustration/1F4D6.svg",
-        "emojiSvg": "emoji-svg/1F4D6.svg",
+        "illustration": "illustration/1F6B6.svg",
+        "emojiSvg": "emoji-svg/1F6B6.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F4D6.png",
-          "256": "emoji-png/256/1F4D6.png",
-          "512": "emoji-png/512/1F4D6.png"
-        }
-      }
-    },
-    {
-      "id": "1F34E",
-      "unicodeSequence": "1F34E",
-      "emoji": "🍎",
-      "name": "red apple",
-      "category": "food-and-drink",
-      "subcategory": "food-fruit",
-      "keywords": [
-        "red",
-        "apple"
-      ],
-      "assets": {
-        "illustration": "illustration/1F34E.svg",
-        "emojiSvg": "emoji-svg/1F34E.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F34E.png",
-          "256": "emoji-png/256/1F34E.png",
-          "512": "emoji-png/512/1F34E.png"
+          "128": "emoji-png/128/1F6B6.png",
+          "256": "emoji-png/256/1F6B6.png",
+          "512": "emoji-png/512/1F6B6.png"
         }
       }
     },
@@ -367,6 +338,27 @@
           "128": "emoji-png/128/1F3C3.png",
           "256": "emoji-png/256/1F3C3.png",
           "512": "emoji-png/512/1F3C3.png"
+        }
+      }
+    },
+    {
+      "id": "1F3CA",
+      "unicodeSequence": "1F3CA",
+      "emoji": "🏊️",
+      "name": "person swimming",
+      "category": "people-and-body",
+      "subcategory": "person-sport",
+      "keywords": [
+        "person",
+        "swimming"
+      ],
+      "assets": {
+        "illustration": "illustration/1F3CA.svg",
+        "emojiSvg": "emoji-svg/1F3CA.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F3CA.png",
+          "256": "emoji-png/256/1F3CA.png",
+          "512": "emoji-png/512/1F3CA.png"
         }
       }
     },
@@ -416,275 +408,22 @@
       }
     },
     {
-      "id": "1F3CA",
-      "unicodeSequence": "1F3CA",
-      "emoji": "🏊️",
-      "name": "person swimming",
-      "category": "people-and-body",
-      "subcategory": "person-sport",
-      "keywords": [
-        "person",
-        "swimming"
-      ],
-      "assets": {
-        "illustration": "illustration/1F3CA.svg",
-        "emojiSvg": "emoji-svg/1F3CA.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F3CA.png",
-          "256": "emoji-png/256/1F3CA.png",
-          "512": "emoji-png/512/1F3CA.png"
-        }
-      }
-    },
-    {
-      "id": "1F3A7",
-      "unicodeSequence": "1F3A7",
-      "emoji": "🎧️",
-      "name": "headphone",
-      "category": "objects",
-      "subcategory": "music",
-      "keywords": [
-        "headphone"
-      ],
-      "assets": {
-        "illustration": "illustration/1F3A7.svg",
-        "emojiSvg": "emoji-svg/1F3A7.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F3A7.png",
-          "256": "emoji-png/256/1F3A7.png",
-          "512": "emoji-png/512/1F3A7.png"
-        }
-      }
-    },
-    {
-      "id": "1F4F7",
-      "unicodeSequence": "1F4F7",
-      "emoji": "📷️",
-      "name": "camera",
-      "category": "objects",
-      "subcategory": "light-and-video",
-      "keywords": [
-        "camera"
-      ],
-      "assets": {
-        "illustration": "illustration/1F4F7.svg",
-        "emojiSvg": "emoji-svg/1F4F7.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F4F7.png",
-          "256": "emoji-png/256/1F4F7.png",
-          "512": "emoji-png/512/1F4F7.png"
-        }
-      }
-    },
-    {
-      "id": "1F3E0",
-      "unicodeSequence": "1F3E0",
-      "emoji": "🏠️",
-      "name": "house",
-      "category": "travel-and-places",
-      "subcategory": "place-building",
-      "keywords": [
-        "house"
-      ],
-      "assets": {
-        "illustration": "illustration/1F3E0.svg",
-        "emojiSvg": "emoji-svg/1F3E0.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F3E0.png",
-          "256": "emoji-png/256/1F3E0.png",
-          "512": "emoji-png/512/1F3E0.png"
-        }
-      }
-    },
-    {
-      "id": "1F389",
-      "unicodeSequence": "1F389",
-      "emoji": "🎉",
-      "name": "party popper",
-      "category": "activities",
-      "subcategory": "event",
-      "keywords": [
-        "party",
-        "popper"
-      ],
-      "assets": {
-        "illustration": "illustration/1F389.svg",
-        "emojiSvg": "emoji-svg/1F389.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F389.png",
-          "256": "emoji-png/256/1F389.png",
-          "512": "emoji-png/512/1F389.png"
-        }
-      }
-    },
-    {
-      "id": "1F622",
-      "unicodeSequence": "1F622",
-      "emoji": "😢",
-      "name": "crying face",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-concerned",
-      "keywords": [
-        "crying",
-        "face"
-      ],
-      "assets": {
-        "illustration": "illustration/1F622.svg",
-        "emojiSvg": "emoji-svg/1F622.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F622.png",
-          "256": "emoji-png/256/1F622.png",
-          "512": "emoji-png/512/1F622.png"
-        }
-      }
-    },
-    {
-      "id": "1F602",
-      "unicodeSequence": "1F602",
-      "emoji": "😂",
-      "name": "face with tears of joy",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-smiling",
-      "keywords": [
-        "face",
-        "with",
-        "tears",
-        "of",
-        "joy"
-      ],
-      "assets": {
-        "illustration": "illustration/1F602.svg",
-        "emojiSvg": "emoji-svg/1F602.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F602.png",
-          "256": "emoji-png/256/1F602.png",
-          "512": "emoji-png/512/1F602.png"
-        }
-      }
-    },
-    {
-      "id": "1F632",
-      "unicodeSequence": "1F632",
-      "emoji": "😲",
-      "name": "astonished face",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-concerned",
-      "keywords": [
-        "astonished",
-        "face"
-      ],
-      "assets": {
-        "illustration": "illustration/1F632.svg",
-        "emojiSvg": "emoji-svg/1F632.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F632.png",
-          "256": "emoji-png/256/1F632.png",
-          "512": "emoji-png/512/1F632.png"
-        }
-      }
-    },
-    {
-      "id": "1F615",
-      "unicodeSequence": "1F615",
-      "emoji": "😕",
-      "name": "confused face",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-concerned",
-      "keywords": [
-        "confused",
-        "face"
-      ],
-      "assets": {
-        "illustration": "illustration/1F615.svg",
-        "emojiSvg": "emoji-svg/1F615.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F615.png",
-          "256": "emoji-png/256/1F615.png",
-          "512": "emoji-png/512/1F615.png"
-        }
-      }
-    },
-    {
-      "id": "1F319",
-      "unicodeSequence": "1F319",
-      "emoji": "🌙",
-      "name": "crescent moon",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "crescent",
-        "moon"
-      ],
-      "assets": {
-        "illustration": "illustration/1F319.svg",
-        "emojiSvg": "emoji-svg/1F319.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F319.png",
-          "256": "emoji-png/256/1F319.png",
-          "512": "emoji-png/512/1F319.png"
-        }
-      }
-    },
-    {
-      "id": "1F327",
-      "unicodeSequence": "1F327-FE0F",
-      "emoji": "🌧️",
-      "name": "cloud with rain",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "cloud",
-        "with",
-        "rain"
-      ],
-      "assets": {
-        "illustration": "illustration/1F327.svg",
-        "emojiSvg": "emoji-svg/1F327.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F327.png",
-          "256": "emoji-png/256/1F327.png",
-          "512": "emoji-png/512/1F327.png"
-        }
-      }
-    },
-    {
-      "id": "1F525",
-      "unicodeSequence": "1F525",
-      "emoji": "🔥",
-      "name": "fire",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "fire"
-      ],
-      "assets": {
-        "illustration": "illustration/1F525.svg",
-        "emojiSvg": "emoji-svg/1F525.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F525.png",
-          "256": "emoji-png/256/1F525.png",
-          "512": "emoji-png/512/1F525.png"
-        }
-      }
-    },
-    {
-      "id": "1F338",
-      "unicodeSequence": "1F338",
-      "emoji": "🌸",
-      "name": "cherry blossom",
+      "id": "1F412",
+      "unicodeSequence": "1F412",
+      "emoji": "🐒",
+      "name": "monkey",
       "category": "animals-and-nature",
-      "subcategory": "plant-flower",
+      "subcategory": "animal-mammal",
       "keywords": [
-        "cherry",
-        "blossom"
+        "monkey"
       ],
       "assets": {
-        "illustration": "illustration/1F338.svg",
-        "emojiSvg": "emoji-svg/1F338.svg",
+        "illustration": "illustration/1F412.svg",
+        "emojiSvg": "emoji-svg/1F412.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F338.png",
-          "256": "emoji-png/256/1F338.png",
-          "512": "emoji-png/512/1F338.png"
+          "128": "emoji-png/128/1F412.png",
+          "256": "emoji-png/256/1F412.png",
+          "512": "emoji-png/512/1F412.png"
         }
       }
     },
@@ -729,6 +468,86 @@
       }
     },
     {
+      "id": "1F404",
+      "unicodeSequence": "1F404",
+      "emoji": "🐄",
+      "name": "cow",
+      "category": "animals-and-nature",
+      "subcategory": "animal-mammal",
+      "keywords": [
+        "cow"
+      ],
+      "assets": {
+        "illustration": "illustration/1F404.svg",
+        "emojiSvg": "emoji-svg/1F404.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F404.png",
+          "256": "emoji-png/256/1F404.png",
+          "512": "emoji-png/512/1F404.png"
+        }
+      }
+    },
+    {
+      "id": "1F416",
+      "unicodeSequence": "1F416",
+      "emoji": "🐖",
+      "name": "pig",
+      "category": "animals-and-nature",
+      "subcategory": "animal-mammal",
+      "keywords": [
+        "pig"
+      ],
+      "assets": {
+        "illustration": "illustration/1F416.svg",
+        "emojiSvg": "emoji-svg/1F416.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F416.png",
+          "256": "emoji-png/256/1F416.png",
+          "512": "emoji-png/512/1F416.png"
+        }
+      }
+    },
+    {
+      "id": "1F407",
+      "unicodeSequence": "1F407",
+      "emoji": "🐇",
+      "name": "rabbit",
+      "category": "animals-and-nature",
+      "subcategory": "animal-mammal",
+      "keywords": [
+        "rabbit"
+      ],
+      "assets": {
+        "illustration": "illustration/1F407.svg",
+        "emojiSvg": "emoji-svg/1F407.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F407.png",
+          "256": "emoji-png/256/1F407.png",
+          "512": "emoji-png/512/1F407.png"
+        }
+      }
+    },
+    {
+      "id": "1F43B",
+      "unicodeSequence": "1F43B",
+      "emoji": "🐻",
+      "name": "bear",
+      "category": "animals-and-nature",
+      "subcategory": "animal-mammal",
+      "keywords": [
+        "bear"
+      ],
+      "assets": {
+        "illustration": "illustration/1F43B.svg",
+        "emojiSvg": "emoji-svg/1F43B.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F43B.png",
+          "256": "emoji-png/256/1F43B.png",
+          "512": "emoji-png/512/1F43B.png"
+        }
+      }
+    },
+    {
       "id": "1F426",
       "unicodeSequence": "1F426",
       "emoji": "🐦️",
@@ -745,6 +564,26 @@
           "128": "emoji-png/128/1F426.png",
           "256": "emoji-png/256/1F426.png",
           "512": "emoji-png/512/1F426.png"
+        }
+      }
+    },
+    {
+      "id": "1F438",
+      "unicodeSequence": "1F438",
+      "emoji": "🐸",
+      "name": "frog",
+      "category": "animals-and-nature",
+      "subcategory": "animal-amphibian",
+      "keywords": [
+        "frog"
+      ],
+      "assets": {
+        "illustration": "illustration/1F438.svg",
+        "emojiSvg": "emoji-svg/1F438.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F438.png",
+          "256": "emoji-png/256/1F438.png",
+          "512": "emoji-png/512/1F438.png"
         }
       }
     },
@@ -769,330 +608,63 @@
       }
     },
     {
-      "id": "1F354",
-      "unicodeSequence": "1F354",
-      "emoji": "🍔",
-      "name": "hamburger",
-      "category": "food-and-drink",
-      "subcategory": "food-prepared",
+      "id": "1F419",
+      "unicodeSequence": "1F419",
+      "emoji": "🐙",
+      "name": "octopus",
+      "category": "animals-and-nature",
+      "subcategory": "animal-marine",
       "keywords": [
-        "hamburger"
+        "octopus"
       ],
       "assets": {
-        "illustration": "illustration/1F354.svg",
-        "emojiSvg": "emoji-svg/1F354.svg",
+        "illustration": "illustration/1F419.svg",
+        "emojiSvg": "emoji-svg/1F419.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F354.png",
-          "256": "emoji-png/256/1F354.png",
-          "512": "emoji-png/512/1F354.png"
+          "128": "emoji-png/128/1F419.png",
+          "256": "emoji-png/256/1F419.png",
+          "512": "emoji-png/512/1F419.png"
         }
       }
     },
     {
-      "id": "1F355",
-      "unicodeSequence": "1F355",
-      "emoji": "🍕",
-      "name": "pizza",
-      "category": "food-and-drink",
-      "subcategory": "food-prepared",
+      "id": "1F98B",
+      "unicodeSequence": "1F98B",
+      "emoji": "🦋",
+      "name": "butterfly",
+      "category": "animals-and-nature",
+      "subcategory": "animal-bug",
       "keywords": [
-        "pizza"
+        "butterfly"
       ],
       "assets": {
-        "illustration": "illustration/1F355.svg",
-        "emojiSvg": "emoji-svg/1F355.svg",
+        "illustration": "illustration/1F98B.svg",
+        "emojiSvg": "emoji-svg/1F98B.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F355.png",
-          "256": "emoji-png/256/1F355.png",
-          "512": "emoji-png/512/1F355.png"
+          "128": "emoji-png/128/1F98B.png",
+          "256": "emoji-png/256/1F98B.png",
+          "512": "emoji-png/512/1F98B.png"
         }
       }
     },
     {
-      "id": "1F382",
-      "unicodeSequence": "1F382",
-      "emoji": "🎂",
-      "name": "birthday cake",
-      "category": "food-and-drink",
-      "subcategory": "food-sweet",
+      "id": "1F338",
+      "unicodeSequence": "1F338",
+      "emoji": "🌸",
+      "name": "cherry blossom",
+      "category": "animals-and-nature",
+      "subcategory": "plant-flower",
       "keywords": [
-        "birthday",
-        "cake"
+        "cherry",
+        "blossom"
       ],
       "assets": {
-        "illustration": "illustration/1F382.svg",
-        "emojiSvg": "emoji-svg/1F382.svg",
+        "illustration": "illustration/1F338.svg",
+        "emojiSvg": "emoji-svg/1F338.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F382.png",
-          "256": "emoji-png/256/1F382.png",
-          "512": "emoji-png/512/1F382.png"
-        }
-      }
-    },
-    {
-      "id": "1F366",
-      "unicodeSequence": "1F366",
-      "emoji": "🍦",
-      "name": "soft ice cream",
-      "category": "food-and-drink",
-      "subcategory": "food-sweet",
-      "keywords": [
-        "soft",
-        "ice",
-        "cream"
-      ],
-      "assets": {
-        "illustration": "illustration/1F366.svg",
-        "emojiSvg": "emoji-svg/1F366.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F366.png",
-          "256": "emoji-png/256/1F366.png",
-          "512": "emoji-png/512/1F366.png"
-        }
-      }
-    },
-    {
-      "id": "1F4F1",
-      "unicodeSequence": "1F4F1",
-      "emoji": "📱",
-      "name": "mobile phone",
-      "category": "objects",
-      "subcategory": "phone",
-      "keywords": [
-        "mobile",
-        "phone"
-      ],
-      "assets": {
-        "illustration": "illustration/1F4F1.svg",
-        "emojiSvg": "emoji-svg/1F4F1.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F4F1.png",
-          "256": "emoji-png/256/1F4F1.png",
-          "512": "emoji-png/512/1F4F1.png"
-        }
-      }
-    },
-    {
-      "id": "1F6CD",
-      "unicodeSequence": "1F6CD-FE0F",
-      "emoji": "🛍️",
-      "name": "shopping bags",
-      "category": "objects",
-      "subcategory": "clothing",
-      "keywords": [
-        "shopping",
-        "bags"
-      ],
-      "assets": {
-        "illustration": "illustration/1F6CD.svg",
-        "emojiSvg": "emoji-svg/1F6CD.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F6CD.png",
-          "256": "emoji-png/256/1F6CD.png",
-          "512": "emoji-png/512/1F6CD.png"
-        }
-      }
-    },
-    {
-      "id": "1F697",
-      "unicodeSequence": "1F697",
-      "emoji": "🚗",
-      "name": "automobile",
-      "category": "travel-and-places",
-      "subcategory": "transport-ground",
-      "keywords": [
-        "automobile"
-      ],
-      "assets": {
-        "illustration": "illustration/1F697.svg",
-        "emojiSvg": "emoji-svg/1F697.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F697.png",
-          "256": "emoji-png/256/1F697.png",
-          "512": "emoji-png/512/1F697.png"
-        }
-      }
-    },
-    {
-      "id": "1F686",
-      "unicodeSequence": "1F686",
-      "emoji": "🚆",
-      "name": "train",
-      "category": "travel-and-places",
-      "subcategory": "transport-ground",
-      "keywords": [
-        "train"
-      ],
-      "assets": {
-        "illustration": "illustration/1F686.svg",
-        "emojiSvg": "emoji-svg/1F686.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F686.png",
-          "256": "emoji-png/256/1F686.png",
-          "512": "emoji-png/512/1F686.png"
-        }
-      }
-    },
-    {
-      "id": "1F3C8",
-      "unicodeSequence": "1F3C8",
-      "emoji": "🏈",
-      "name": "american football",
-      "category": "activities",
-      "subcategory": "sport",
-      "keywords": [
-        "american",
-        "football"
-      ],
-      "assets": {
-        "illustration": "illustration/1F3C8.svg",
-        "emojiSvg": "emoji-svg/1F3C8.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F3C8.png",
-          "256": "emoji-png/256/1F3C8.png",
-          "512": "emoji-png/512/1F3C8.png"
-        }
-      }
-    },
-    {
-      "id": "1F3B8",
-      "unicodeSequence": "1F3B8",
-      "emoji": "🎸",
-      "name": "guitar",
-      "category": "objects",
-      "subcategory": "musical-instrument",
-      "keywords": [
-        "guitar"
-      ],
-      "assets": {
-        "illustration": "illustration/1F3B8.svg",
-        "emojiSvg": "emoji-svg/1F3B8.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F3B8.png",
-          "256": "emoji-png/256/1F3B8.png",
-          "512": "emoji-png/512/1F3B8.png"
-        }
-      }
-    },
-    {
-      "id": "1F3A8",
-      "unicodeSequence": "1F3A8",
-      "emoji": "🎨",
-      "name": "artist palette",
-      "category": "activities",
-      "subcategory": "arts-and-crafts",
-      "keywords": [
-        "artist",
-        "palette"
-      ],
-      "assets": {
-        "illustration": "illustration/1F3A8.svg",
-        "emojiSvg": "emoji-svg/1F3A8.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F3A8.png",
-          "256": "emoji-png/256/1F3A8.png",
-          "512": "emoji-png/512/1F3A8.png"
-        }
-      }
-    },
-    {
-      "id": "1F680",
-      "unicodeSequence": "1F680",
-      "emoji": "🚀",
-      "name": "rocket",
-      "category": "travel-and-places",
-      "subcategory": "transport-air",
-      "keywords": [
-        "rocket"
-      ],
-      "assets": {
-        "illustration": "illustration/1F680.svg",
-        "emojiSvg": "emoji-svg/1F680.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F680.png",
-          "256": "emoji-png/256/1F680.png",
-          "512": "emoji-png/512/1F680.png"
-        }
-      }
-    },
-    {
-      "id": "2600",
-      "unicodeSequence": "2600-FE0F",
-      "emoji": "☀️",
-      "name": "sun",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "sun"
-      ],
-      "assets": {
-        "illustration": "illustration/2600.svg",
-        "emojiSvg": "emoji-svg/2600.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/2600.png",
-          "256": "emoji-png/256/2600.png",
-          "512": "emoji-png/512/2600.png"
-        }
-      }
-    },
-    {
-      "id": "2B50",
-      "unicodeSequence": "2B50",
-      "emoji": "⭐️",
-      "name": "star",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "star"
-      ],
-      "assets": {
-        "illustration": "illustration/2B50.svg",
-        "emojiSvg": "emoji-svg/2B50.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/2B50.png",
-          "256": "emoji-png/256/2B50.png",
-          "512": "emoji-png/512/2B50.png"
-        }
-      }
-    },
-    {
-      "id": "26A1",
-      "unicodeSequence": "26A1",
-      "emoji": "⚡️",
-      "name": "high voltage",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "high",
-        "voltage"
-      ],
-      "assets": {
-        "illustration": "illustration/26A1.svg",
-        "emojiSvg": "emoji-svg/26A1.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/26A1.png",
-          "256": "emoji-png/256/26A1.png",
-          "512": "emoji-png/512/26A1.png"
-        }
-      }
-    },
-    {
-      "id": "2744",
-      "unicodeSequence": "2744-FE0F",
-      "emoji": "❄️",
-      "name": "snowflake",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "snowflake"
-      ],
-      "assets": {
-        "illustration": "illustration/2744.svg",
-        "emojiSvg": "emoji-svg/2744.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/2744.png",
-          "256": "emoji-png/256/2744.png",
-          "512": "emoji-png/512/2744.png"
+          "128": "emoji-png/128/1F338.png",
+          "256": "emoji-png/256/1F338.png",
+          "512": "emoji-png/512/1F338.png"
         }
       }
     },
@@ -1138,26 +710,6 @@
       }
     },
     {
-      "id": "1F344",
-      "unicodeSequence": "1F344",
-      "emoji": "🍄",
-      "name": "mushroom",
-      "category": "animals-and-nature",
-      "subcategory": "plant-other",
-      "keywords": [
-        "mushroom"
-      ],
-      "assets": {
-        "illustration": "illustration/1F344.svg",
-        "emojiSvg": "emoji-svg/1F344.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F344.png",
-          "256": "emoji-png/256/1F344.png",
-          "512": "emoji-png/512/1F344.png"
-        }
-      }
-    },
-    {
       "id": "1F343",
       "unicodeSequence": "1F343",
       "emoji": "🍃",
@@ -1181,102 +733,83 @@
       }
     },
     {
-      "id": "1F407",
-      "unicodeSequence": "1F407",
-      "emoji": "🐇",
-      "name": "rabbit",
+      "id": "1F344",
+      "unicodeSequence": "1F344",
+      "emoji": "🍄",
+      "name": "mushroom",
       "category": "animals-and-nature",
-      "subcategory": "animal-mammal",
+      "subcategory": "plant-other",
       "keywords": [
-        "rabbit"
+        "mushroom"
       ],
       "assets": {
-        "illustration": "illustration/1F407.svg",
-        "emojiSvg": "emoji-svg/1F407.svg",
+        "illustration": "illustration/1F344.svg",
+        "emojiSvg": "emoji-svg/1F344.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F407.png",
-          "256": "emoji-png/256/1F407.png",
-          "512": "emoji-png/512/1F407.png"
+          "128": "emoji-png/128/1F344.png",
+          "256": "emoji-png/256/1F344.png",
+          "512": "emoji-png/512/1F344.png"
         }
       }
     },
     {
-      "id": "1F43B",
-      "unicodeSequence": "1F43B",
-      "emoji": "🐻",
-      "name": "bear",
-      "category": "animals-and-nature",
-      "subcategory": "animal-mammal",
-      "keywords": [
-        "bear"
-      ],
-      "assets": {
-        "illustration": "illustration/1F43B.svg",
-        "emojiSvg": "emoji-svg/1F43B.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F43B.png",
-          "256": "emoji-png/256/1F43B.png",
-          "512": "emoji-png/512/1F43B.png"
-        }
-      }
-    },
-    {
-      "id": "1F438",
-      "unicodeSequence": "1F438",
-      "emoji": "🐸",
-      "name": "frog",
-      "category": "animals-and-nature",
-      "subcategory": "animal-amphibian",
-      "keywords": [
-        "frog"
-      ],
-      "assets": {
-        "illustration": "illustration/1F438.svg",
-        "emojiSvg": "emoji-svg/1F438.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F438.png",
-          "256": "emoji-png/256/1F438.png",
-          "512": "emoji-png/512/1F438.png"
-        }
-      }
-    },
-    {
-      "id": "1F98B",
-      "unicodeSequence": "1F98B",
-      "emoji": "🦋",
-      "name": "butterfly",
-      "category": "animals-and-nature",
-      "subcategory": "animal-bug",
-      "keywords": [
-        "butterfly"
-      ],
-      "assets": {
-        "illustration": "illustration/1F98B.svg",
-        "emojiSvg": "emoji-svg/1F98B.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F98B.png",
-          "256": "emoji-png/256/1F98B.png",
-          "512": "emoji-png/512/1F98B.png"
-        }
-      }
-    },
-    {
-      "id": "1F35E",
-      "unicodeSequence": "1F35E",
-      "emoji": "🍞",
-      "name": "bread",
+      "id": "1F349",
+      "unicodeSequence": "1F349",
+      "emoji": "🍉",
+      "name": "watermelon",
       "category": "food-and-drink",
-      "subcategory": "food-prepared",
+      "subcategory": "food-fruit",
       "keywords": [
-        "bread"
+        "watermelon"
       ],
       "assets": {
-        "illustration": "illustration/1F35E.svg",
-        "emojiSvg": "emoji-svg/1F35E.svg",
+        "illustration": "illustration/1F349.svg",
+        "emojiSvg": "emoji-svg/1F349.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F35E.png",
-          "256": "emoji-png/256/1F35E.png",
-          "512": "emoji-png/512/1F35E.png"
+          "128": "emoji-png/128/1F349.png",
+          "256": "emoji-png/256/1F349.png",
+          "512": "emoji-png/512/1F349.png"
+        }
+      }
+    },
+    {
+      "id": "1F34C",
+      "unicodeSequence": "1F34C",
+      "emoji": "🍌",
+      "name": "banana",
+      "category": "food-and-drink",
+      "subcategory": "food-fruit",
+      "keywords": [
+        "banana"
+      ],
+      "assets": {
+        "illustration": "illustration/1F34C.svg",
+        "emojiSvg": "emoji-svg/1F34C.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F34C.png",
+          "256": "emoji-png/256/1F34C.png",
+          "512": "emoji-png/512/1F34C.png"
+        }
+      }
+    },
+    {
+      "id": "1F34E",
+      "unicodeSequence": "1F34E",
+      "emoji": "🍎",
+      "name": "red apple",
+      "category": "food-and-drink",
+      "subcategory": "food-fruit",
+      "keywords": [
+        "red",
+        "apple"
+      ],
+      "assets": {
+        "illustration": "illustration/1F34E.svg",
+        "emojiSvg": "emoji-svg/1F34E.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F34E.png",
+          "256": "emoji-png/256/1F34E.png",
+          "512": "emoji-png/512/1F34E.png"
         }
       }
     },
@@ -1301,22 +834,102 @@
       }
     },
     {
-      "id": "1F34C",
-      "unicodeSequence": "1F34C",
-      "emoji": "🍌",
-      "name": "banana",
+      "id": "1F35E",
+      "unicodeSequence": "1F35E",
+      "emoji": "🍞",
+      "name": "bread",
       "category": "food-and-drink",
-      "subcategory": "food-fruit",
+      "subcategory": "food-prepared",
       "keywords": [
-        "banana"
+        "bread"
       ],
       "assets": {
-        "illustration": "illustration/1F34C.svg",
-        "emojiSvg": "emoji-svg/1F34C.svg",
+        "illustration": "illustration/1F35E.svg",
+        "emojiSvg": "emoji-svg/1F35E.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F34C.png",
-          "256": "emoji-png/256/1F34C.png",
-          "512": "emoji-png/512/1F34C.png"
+          "128": "emoji-png/128/1F35E.png",
+          "256": "emoji-png/256/1F35E.png",
+          "512": "emoji-png/512/1F35E.png"
+        }
+      }
+    },
+    {
+      "id": "1F354",
+      "unicodeSequence": "1F354",
+      "emoji": "🍔",
+      "name": "hamburger",
+      "category": "food-and-drink",
+      "subcategory": "food-prepared",
+      "keywords": [
+        "hamburger"
+      ],
+      "assets": {
+        "illustration": "illustration/1F354.svg",
+        "emojiSvg": "emoji-svg/1F354.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F354.png",
+          "256": "emoji-png/256/1F354.png",
+          "512": "emoji-png/512/1F354.png"
+        }
+      }
+    },
+    {
+      "id": "1F355",
+      "unicodeSequence": "1F355",
+      "emoji": "🍕",
+      "name": "pizza",
+      "category": "food-and-drink",
+      "subcategory": "food-prepared",
+      "keywords": [
+        "pizza"
+      ],
+      "assets": {
+        "illustration": "illustration/1F355.svg",
+        "emojiSvg": "emoji-svg/1F355.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F355.png",
+          "256": "emoji-png/256/1F355.png",
+          "512": "emoji-png/512/1F355.png"
+        }
+      }
+    },
+    {
+      "id": "1F32E",
+      "unicodeSequence": "1F32E",
+      "emoji": "🌮",
+      "name": "taco",
+      "category": "food-and-drink",
+      "subcategory": "food-prepared",
+      "keywords": [
+        "taco"
+      ],
+      "assets": {
+        "illustration": "illustration/1F32E.svg",
+        "emojiSvg": "emoji-svg/1F32E.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F32E.png",
+          "256": "emoji-png/256/1F32E.png",
+          "512": "emoji-png/512/1F32E.png"
+        }
+      }
+    },
+    {
+      "id": "1F373",
+      "unicodeSequence": "1F373",
+      "emoji": "🍳",
+      "name": "cooking",
+      "category": "food-and-drink",
+      "subcategory": "food-prepared",
+      "keywords": [
+        "cooking"
+      ],
+      "assets": {
+        "illustration": "illustration/1F373.svg",
+        "emojiSvg": "emoji-svg/1F373.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F373.png",
+          "256": "emoji-png/256/1F373.png",
+          "512": "emoji-png/512/1F373.png"
         }
       }
     },
@@ -1342,419 +955,6 @@
       }
     },
     {
-      "id": "231A",
-      "unicodeSequence": "231A",
-      "emoji": "⌚️",
-      "name": "watch",
-      "category": "travel-and-places",
-      "subcategory": "time",
-      "keywords": [
-        "watch"
-      ],
-      "assets": {
-        "illustration": "illustration/231A.svg",
-        "emojiSvg": "emoji-svg/231A.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/231A.png",
-          "256": "emoji-png/256/231A.png",
-          "512": "emoji-png/512/231A.png"
-        }
-      }
-    },
-    {
-      "id": "1F511",
-      "unicodeSequence": "1F511",
-      "emoji": "🔑",
-      "name": "key",
-      "category": "objects",
-      "subcategory": "lock",
-      "keywords": [
-        "key"
-      ],
-      "assets": {
-        "illustration": "illustration/1F511.svg",
-        "emojiSvg": "emoji-svg/1F511.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F511.png",
-          "256": "emoji-png/256/1F511.png",
-          "512": "emoji-png/512/1F511.png"
-        }
-      }
-    },
-    {
-      "id": "2602",
-      "unicodeSequence": "2602-FE0F",
-      "emoji": "☂️",
-      "name": "umbrella",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "umbrella"
-      ],
-      "assets": {
-        "illustration": "illustration/2602.svg",
-        "emojiSvg": "emoji-svg/2602.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/2602.png",
-          "256": "emoji-png/256/2602.png",
-          "512": "emoji-png/512/2602.png"
-        }
-      }
-    },
-    {
-      "id": "1F392",
-      "unicodeSequence": "1F392",
-      "emoji": "🎒",
-      "name": "backpack",
-      "category": "objects",
-      "subcategory": "clothing",
-      "keywords": [
-        "backpack"
-      ],
-      "assets": {
-        "illustration": "illustration/1F392.svg",
-        "emojiSvg": "emoji-svg/1F392.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F392.png",
-          "256": "emoji-png/256/1F392.png",
-          "512": "emoji-png/512/1F392.png"
-        }
-      }
-    },
-    {
-      "id": "1F6CF",
-      "unicodeSequence": "1F6CF-FE0F",
-      "emoji": "🛏️",
-      "name": "bed",
-      "category": "objects",
-      "subcategory": "household",
-      "keywords": [
-        "bed"
-      ],
-      "assets": {
-        "illustration": "illustration/1F6CF.svg",
-        "emojiSvg": "emoji-svg/1F6CF.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F6CF.png",
-          "256": "emoji-png/256/1F6CF.png",
-          "512": "emoji-png/512/1F6CF.png"
-        }
-      }
-    },
-    {
-      "id": "1FAA5",
-      "unicodeSequence": "1FAA5",
-      "emoji": "🪥",
-      "name": "toothbrush",
-      "category": "objects",
-      "subcategory": "household",
-      "keywords": [
-        "toothbrush"
-      ],
-      "assets": {
-        "illustration": "illustration/1FAA5.svg",
-        "emojiSvg": "emoji-svg/1FAA5.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1FAA5.png",
-          "256": "emoji-png/256/1FAA5.png",
-          "512": "emoji-png/512/1FAA5.png"
-        }
-      }
-    },
-    {
-      "id": "1F3B5",
-      "unicodeSequence": "1F3B5",
-      "emoji": "🎵",
-      "name": "musical note",
-      "category": "objects",
-      "subcategory": "music",
-      "keywords": [
-        "musical",
-        "note"
-      ],
-      "assets": {
-        "illustration": "illustration/1F3B5.svg",
-        "emojiSvg": "emoji-svg/1F3B5.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F3B5.png",
-          "256": "emoji-png/256/1F3B5.png",
-          "512": "emoji-png/512/1F3B5.png"
-        }
-      }
-    },
-    {
-      "id": "1F381",
-      "unicodeSequence": "1F381",
-      "emoji": "🎁",
-      "name": "wrapped gift",
-      "category": "activities",
-      "subcategory": "event",
-      "keywords": [
-        "wrapped",
-        "gift"
-      ],
-      "assets": {
-        "illustration": "illustration/1F381.svg",
-        "emojiSvg": "emoji-svg/1F381.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F381.png",
-          "256": "emoji-png/256/1F381.png",
-          "512": "emoji-png/512/1F381.png"
-        }
-      }
-    },
-    {
-      "id": "1F609",
-      "unicodeSequence": "1F609",
-      "emoji": "😉",
-      "name": "winking face",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-smiling",
-      "keywords": [
-        "winking",
-        "face"
-      ],
-      "assets": {
-        "illustration": "illustration/1F609.svg",
-        "emojiSvg": "emoji-svg/1F609.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F609.png",
-          "256": "emoji-png/256/1F609.png",
-          "512": "emoji-png/512/1F609.png"
-        }
-      }
-    },
-    {
-      "id": "1F618",
-      "unicodeSequence": "1F618",
-      "emoji": "😘",
-      "name": "face blowing a kiss",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-affection",
-      "keywords": [
-        "face",
-        "blowing",
-        "a",
-        "kiss"
-      ],
-      "assets": {
-        "illustration": "illustration/1F618.svg",
-        "emojiSvg": "emoji-svg/1F618.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F618.png",
-          "256": "emoji-png/256/1F618.png",
-          "512": "emoji-png/512/1F618.png"
-        }
-      }
-    },
-    {
-      "id": "1F60E",
-      "unicodeSequence": "1F60E",
-      "emoji": "😎",
-      "name": "smiling face with sunglasses",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-glasses",
-      "keywords": [
-        "smiling",
-        "face",
-        "with",
-        "sunglasses"
-      ],
-      "assets": {
-        "illustration": "illustration/1F60E.svg",
-        "emojiSvg": "emoji-svg/1F60E.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F60E.png",
-          "256": "emoji-png/256/1F60E.png",
-          "512": "emoji-png/512/1F60E.png"
-        }
-      }
-    },
-    {
-      "id": "1F914",
-      "unicodeSequence": "1F914",
-      "emoji": "🤔",
-      "name": "thinking face",
-      "category": "smileys-and-emotion",
-      "subcategory": "face-hand",
-      "keywords": [
-        "thinking",
-        "face"
-      ],
-      "assets": {
-        "illustration": "illustration/1F914.svg",
-        "emojiSvg": "emoji-svg/1F914.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F914.png",
-          "256": "emoji-png/256/1F914.png",
-          "512": "emoji-png/512/1F914.png"
-        }
-      }
-    },
-    {
-      "id": "1F308",
-      "unicodeSequence": "1F308",
-      "emoji": "🌈",
-      "name": "rainbow",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "rainbow"
-      ],
-      "assets": {
-        "illustration": "illustration/1F308.svg",
-        "emojiSvg": "emoji-svg/1F308.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F308.png",
-          "256": "emoji-png/256/1F308.png",
-          "512": "emoji-png/512/1F308.png"
-        }
-      }
-    },
-    {
-      "id": "1F30A",
-      "unicodeSequence": "1F30A",
-      "emoji": "🌊",
-      "name": "water wave",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "water",
-        "wave"
-      ],
-      "assets": {
-        "illustration": "illustration/1F30A.svg",
-        "emojiSvg": "emoji-svg/1F30A.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F30A.png",
-          "256": "emoji-png/256/1F30A.png",
-          "512": "emoji-png/512/1F30A.png"
-        }
-      }
-    },
-    {
-      "id": "26F0",
-      "unicodeSequence": "26F0-FE0F",
-      "emoji": "⛰️",
-      "name": "mountain",
-      "category": "travel-and-places",
-      "subcategory": "place-geographic",
-      "keywords": [
-        "mountain"
-      ],
-      "assets": {
-        "illustration": "illustration/26F0.svg",
-        "emojiSvg": "emoji-svg/26F0.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/26F0.png",
-          "256": "emoji-png/256/26F0.png",
-          "512": "emoji-png/512/26F0.png"
-        }
-      }
-    },
-    {
-      "id": "26C4",
-      "unicodeSequence": "26C4",
-      "emoji": "⛄️",
-      "name": "snowman without snow",
-      "category": "travel-and-places",
-      "subcategory": "sky-and-weather",
-      "keywords": [
-        "snowman",
-        "without",
-        "snow"
-      ],
-      "assets": {
-        "illustration": "illustration/26C4.svg",
-        "emojiSvg": "emoji-svg/26C4.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/26C4.png",
-          "256": "emoji-png/256/26C4.png",
-          "512": "emoji-png/512/26C4.png"
-        }
-      }
-    },
-    {
-      "id": "1F404",
-      "unicodeSequence": "1F404",
-      "emoji": "🐄",
-      "name": "cow",
-      "category": "animals-and-nature",
-      "subcategory": "animal-mammal",
-      "keywords": [
-        "cow"
-      ],
-      "assets": {
-        "illustration": "illustration/1F404.svg",
-        "emojiSvg": "emoji-svg/1F404.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F404.png",
-          "256": "emoji-png/256/1F404.png",
-          "512": "emoji-png/512/1F404.png"
-        }
-      }
-    },
-    {
-      "id": "1F416",
-      "unicodeSequence": "1F416",
-      "emoji": "🐖",
-      "name": "pig",
-      "category": "animals-and-nature",
-      "subcategory": "animal-mammal",
-      "keywords": [
-        "pig"
-      ],
-      "assets": {
-        "illustration": "illustration/1F416.svg",
-        "emojiSvg": "emoji-svg/1F416.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F416.png",
-          "256": "emoji-png/256/1F416.png",
-          "512": "emoji-png/512/1F416.png"
-        }
-      }
-    },
-    {
-      "id": "1F412",
-      "unicodeSequence": "1F412",
-      "emoji": "🐒",
-      "name": "monkey",
-      "category": "animals-and-nature",
-      "subcategory": "animal-mammal",
-      "keywords": [
-        "monkey"
-      ],
-      "assets": {
-        "illustration": "illustration/1F412.svg",
-        "emojiSvg": "emoji-svg/1F412.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F412.png",
-          "256": "emoji-png/256/1F412.png",
-          "512": "emoji-png/512/1F412.png"
-        }
-      }
-    },
-    {
-      "id": "1F419",
-      "unicodeSequence": "1F419",
-      "emoji": "🐙",
-      "name": "octopus",
-      "category": "animals-and-nature",
-      "subcategory": "animal-marine",
-      "keywords": [
-        "octopus"
-      ],
-      "assets": {
-        "illustration": "illustration/1F419.svg",
-        "emojiSvg": "emoji-svg/1F419.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F419.png",
-          "256": "emoji-png/256/1F419.png",
-          "512": "emoji-png/512/1F419.png"
-        }
-      }
-    },
-    {
       "id": "1F363",
       "unicodeSequence": "1F363",
       "emoji": "🍣",
@@ -1775,22 +975,24 @@
       }
     },
     {
-      "id": "1F32E",
-      "unicodeSequence": "1F32E",
-      "emoji": "🌮",
-      "name": "taco",
+      "id": "1F366",
+      "unicodeSequence": "1F366",
+      "emoji": "🍦",
+      "name": "soft ice cream",
       "category": "food-and-drink",
-      "subcategory": "food-prepared",
+      "subcategory": "food-sweet",
       "keywords": [
-        "taco"
+        "soft",
+        "ice",
+        "cream"
       ],
       "assets": {
-        "illustration": "illustration/1F32E.svg",
-        "emojiSvg": "emoji-svg/1F32E.svg",
+        "illustration": "illustration/1F366.svg",
+        "emojiSvg": "emoji-svg/1F366.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F32E.png",
-          "256": "emoji-png/256/1F32E.png",
-          "512": "emoji-png/512/1F32E.png"
+          "128": "emoji-png/128/1F366.png",
+          "256": "emoji-png/256/1F366.png",
+          "512": "emoji-png/512/1F366.png"
         }
       }
     },
@@ -1815,22 +1017,164 @@
       }
     },
     {
-      "id": "1F349",
-      "unicodeSequence": "1F349",
-      "emoji": "🍉",
-      "name": "watermelon",
+      "id": "1F382",
+      "unicodeSequence": "1F382",
+      "emoji": "🎂",
+      "name": "birthday cake",
       "category": "food-and-drink",
-      "subcategory": "food-fruit",
+      "subcategory": "food-sweet",
       "keywords": [
-        "watermelon"
+        "birthday",
+        "cake"
       ],
       "assets": {
-        "illustration": "illustration/1F349.svg",
-        "emojiSvg": "emoji-svg/1F349.svg",
+        "illustration": "illustration/1F382.svg",
+        "emojiSvg": "emoji-svg/1F382.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F349.png",
-          "256": "emoji-png/256/1F349.png",
-          "512": "emoji-png/512/1F349.png"
+          "128": "emoji-png/128/1F382.png",
+          "256": "emoji-png/256/1F382.png",
+          "512": "emoji-png/512/1F382.png"
+        }
+      }
+    },
+    {
+      "id": "2615",
+      "unicodeSequence": "2615",
+      "emoji": "☕️",
+      "name": "hot beverage",
+      "category": "food-and-drink",
+      "subcategory": "drink",
+      "keywords": [
+        "hot",
+        "beverage"
+      ],
+      "assets": {
+        "illustration": "illustration/2615.svg",
+        "emojiSvg": "emoji-svg/2615.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/2615.png",
+          "256": "emoji-png/256/2615.png",
+          "512": "emoji-png/512/2615.png"
+        }
+      }
+    },
+    {
+      "id": "26F0",
+      "unicodeSequence": "26F0-FE0F",
+      "emoji": "⛰️",
+      "name": "mountain",
+      "category": "travel-and-places",
+      "subcategory": "place-geographic",
+      "keywords": [
+        "mountain"
+      ],
+      "assets": {
+        "illustration": "illustration/26F0.svg",
+        "emojiSvg": "emoji-svg/26F0.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/26F0.png",
+          "256": "emoji-png/256/26F0.png",
+          "512": "emoji-png/512/26F0.png"
+        }
+      }
+    },
+    {
+      "id": "1F3E0",
+      "unicodeSequence": "1F3E0",
+      "emoji": "🏠️",
+      "name": "house",
+      "category": "travel-and-places",
+      "subcategory": "place-building",
+      "keywords": [
+        "house"
+      ],
+      "assets": {
+        "illustration": "illustration/1F3E0.svg",
+        "emojiSvg": "emoji-svg/1F3E0.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F3E0.png",
+          "256": "emoji-png/256/1F3E0.png",
+          "512": "emoji-png/512/1F3E0.png"
+        }
+      }
+    },
+    {
+      "id": "1F686",
+      "unicodeSequence": "1F686",
+      "emoji": "🚆",
+      "name": "train",
+      "category": "travel-and-places",
+      "subcategory": "transport-ground",
+      "keywords": [
+        "train"
+      ],
+      "assets": {
+        "illustration": "illustration/1F686.svg",
+        "emojiSvg": "emoji-svg/1F686.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F686.png",
+          "256": "emoji-png/256/1F686.png",
+          "512": "emoji-png/512/1F686.png"
+        }
+      }
+    },
+    {
+      "id": "1F68C",
+      "unicodeSequence": "1F68C",
+      "emoji": "🚌",
+      "name": "bus",
+      "category": "travel-and-places",
+      "subcategory": "transport-ground",
+      "keywords": [
+        "bus"
+      ],
+      "assets": {
+        "illustration": "illustration/1F68C.svg",
+        "emojiSvg": "emoji-svg/1F68C.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F68C.png",
+          "256": "emoji-png/256/1F68C.png",
+          "512": "emoji-png/512/1F68C.png"
+        }
+      }
+    },
+    {
+      "id": "1F697",
+      "unicodeSequence": "1F697",
+      "emoji": "🚗",
+      "name": "automobile",
+      "category": "travel-and-places",
+      "subcategory": "transport-ground",
+      "keywords": [
+        "automobile"
+      ],
+      "assets": {
+        "illustration": "illustration/1F697.svg",
+        "emojiSvg": "emoji-svg/1F697.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F697.png",
+          "256": "emoji-png/256/1F697.png",
+          "512": "emoji-png/512/1F697.png"
+        }
+      }
+    },
+    {
+      "id": "1F6B2",
+      "unicodeSequence": "1F6B2",
+      "emoji": "🚲️",
+      "name": "bicycle",
+      "category": "travel-and-places",
+      "subcategory": "transport-ground",
+      "keywords": [
+        "bicycle"
+      ],
+      "assets": {
+        "illustration": "illustration/1F6B2.svg",
+        "emojiSvg": "emoji-svg/1F6B2.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F6B2.png",
+          "256": "emoji-png/256/1F6B2.png",
+          "512": "emoji-png/512/1F6B2.png"
         }
       }
     },
@@ -1852,46 +1196,6 @@
           "128": "emoji-png/128/1F6F4.png",
           "256": "emoji-png/256/1F6F4.png",
           "512": "emoji-png/512/1F6F4.png"
-        }
-      }
-    },
-    {
-      "id": "26F5",
-      "unicodeSequence": "26F5",
-      "emoji": "⛵️",
-      "name": "sailboat",
-      "category": "travel-and-places",
-      "subcategory": "transport-water",
-      "keywords": [
-        "sailboat"
-      ],
-      "assets": {
-        "illustration": "illustration/26F5.svg",
-        "emojiSvg": "emoji-svg/26F5.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/26F5.png",
-          "256": "emoji-png/256/26F5.png",
-          "512": "emoji-png/512/26F5.png"
-        }
-      }
-    },
-    {
-      "id": "1F681",
-      "unicodeSequence": "1F681",
-      "emoji": "🚁",
-      "name": "helicopter",
-      "category": "travel-and-places",
-      "subcategory": "transport-air",
-      "keywords": [
-        "helicopter"
-      ],
-      "assets": {
-        "illustration": "illustration/1F681.svg",
-        "emojiSvg": "emoji-svg/1F681.svg",
-        "emojiPng": {
-          "128": "emoji-png/128/1F681.png",
-          "256": "emoji-png/256/1F681.png",
-          "512": "emoji-png/512/1F681.png"
         }
       }
     },
@@ -1918,42 +1222,516 @@
       }
     },
     {
-      "id": "2702",
-      "unicodeSequence": "2702-FE0F",
-      "emoji": "✂️",
-      "name": "scissors",
-      "category": "objects",
-      "subcategory": "office",
+      "id": "26F5",
+      "unicodeSequence": "26F5",
+      "emoji": "⛵️",
+      "name": "sailboat",
+      "category": "travel-and-places",
+      "subcategory": "transport-water",
       "keywords": [
-        "scissors"
+        "sailboat"
       ],
       "assets": {
-        "illustration": "illustration/2702.svg",
-        "emojiSvg": "emoji-svg/2702.svg",
+        "illustration": "illustration/26F5.svg",
+        "emojiSvg": "emoji-svg/26F5.svg",
         "emojiPng": {
-          "128": "emoji-png/128/2702.png",
-          "256": "emoji-png/256/2702.png",
-          "512": "emoji-png/512/2702.png"
+          "128": "emoji-png/128/26F5.png",
+          "256": "emoji-png/256/26F5.png",
+          "512": "emoji-png/512/26F5.png"
         }
       }
     },
     {
-      "id": "270F",
-      "unicodeSequence": "270F-FE0F",
-      "emoji": "✏️",
-      "name": "pencil",
-      "category": "objects",
-      "subcategory": "writing",
+      "id": "2708",
+      "unicodeSequence": "2708-FE0F",
+      "emoji": "✈️",
+      "name": "airplane",
+      "category": "travel-and-places",
+      "subcategory": "transport-air",
       "keywords": [
-        "pencil"
+        "airplane"
       ],
       "assets": {
-        "illustration": "illustration/270F.svg",
-        "emojiSvg": "emoji-svg/270F.svg",
+        "illustration": "illustration/2708.svg",
+        "emojiSvg": "emoji-svg/2708.svg",
         "emojiPng": {
-          "128": "emoji-png/128/270F.png",
-          "256": "emoji-png/256/270F.png",
-          "512": "emoji-png/512/270F.png"
+          "128": "emoji-png/128/2708.png",
+          "256": "emoji-png/256/2708.png",
+          "512": "emoji-png/512/2708.png"
+        }
+      }
+    },
+    {
+      "id": "1F681",
+      "unicodeSequence": "1F681",
+      "emoji": "🚁",
+      "name": "helicopter",
+      "category": "travel-and-places",
+      "subcategory": "transport-air",
+      "keywords": [
+        "helicopter"
+      ],
+      "assets": {
+        "illustration": "illustration/1F681.svg",
+        "emojiSvg": "emoji-svg/1F681.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F681.png",
+          "256": "emoji-png/256/1F681.png",
+          "512": "emoji-png/512/1F681.png"
+        }
+      }
+    },
+    {
+      "id": "1F680",
+      "unicodeSequence": "1F680",
+      "emoji": "🚀",
+      "name": "rocket",
+      "category": "travel-and-places",
+      "subcategory": "transport-air",
+      "keywords": [
+        "rocket"
+      ],
+      "assets": {
+        "illustration": "illustration/1F680.svg",
+        "emojiSvg": "emoji-svg/1F680.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F680.png",
+          "256": "emoji-png/256/1F680.png",
+          "512": "emoji-png/512/1F680.png"
+        }
+      }
+    },
+    {
+      "id": "231A",
+      "unicodeSequence": "231A",
+      "emoji": "⌚️",
+      "name": "watch",
+      "category": "travel-and-places",
+      "subcategory": "time",
+      "keywords": [
+        "watch"
+      ],
+      "assets": {
+        "illustration": "illustration/231A.svg",
+        "emojiSvg": "emoji-svg/231A.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/231A.png",
+          "256": "emoji-png/256/231A.png",
+          "512": "emoji-png/512/231A.png"
+        }
+      }
+    },
+    {
+      "id": "23F0",
+      "unicodeSequence": "23F0",
+      "emoji": "⏰️",
+      "name": "alarm clock",
+      "category": "travel-and-places",
+      "subcategory": "time",
+      "keywords": [
+        "alarm",
+        "clock"
+      ],
+      "assets": {
+        "illustration": "illustration/23F0.svg",
+        "emojiSvg": "emoji-svg/23F0.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/23F0.png",
+          "256": "emoji-png/256/23F0.png",
+          "512": "emoji-png/512/23F0.png"
+        }
+      }
+    },
+    {
+      "id": "1F319",
+      "unicodeSequence": "1F319",
+      "emoji": "🌙",
+      "name": "crescent moon",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "crescent",
+        "moon"
+      ],
+      "assets": {
+        "illustration": "illustration/1F319.svg",
+        "emojiSvg": "emoji-svg/1F319.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F319.png",
+          "256": "emoji-png/256/1F319.png",
+          "512": "emoji-png/512/1F319.png"
+        }
+      }
+    },
+    {
+      "id": "2600",
+      "unicodeSequence": "2600-FE0F",
+      "emoji": "☀️",
+      "name": "sun",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "sun"
+      ],
+      "assets": {
+        "illustration": "illustration/2600.svg",
+        "emojiSvg": "emoji-svg/2600.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/2600.png",
+          "256": "emoji-png/256/2600.png",
+          "512": "emoji-png/512/2600.png"
+        }
+      }
+    },
+    {
+      "id": "2B50",
+      "unicodeSequence": "2B50",
+      "emoji": "⭐️",
+      "name": "star",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "star"
+      ],
+      "assets": {
+        "illustration": "illustration/2B50.svg",
+        "emojiSvg": "emoji-svg/2B50.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/2B50.png",
+          "256": "emoji-png/256/2B50.png",
+          "512": "emoji-png/512/2B50.png"
+        }
+      }
+    },
+    {
+      "id": "1F327",
+      "unicodeSequence": "1F327-FE0F",
+      "emoji": "🌧️",
+      "name": "cloud with rain",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "cloud",
+        "with",
+        "rain"
+      ],
+      "assets": {
+        "illustration": "illustration/1F327.svg",
+        "emojiSvg": "emoji-svg/1F327.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F327.png",
+          "256": "emoji-png/256/1F327.png",
+          "512": "emoji-png/512/1F327.png"
+        }
+      }
+    },
+    {
+      "id": "1F308",
+      "unicodeSequence": "1F308",
+      "emoji": "🌈",
+      "name": "rainbow",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "rainbow"
+      ],
+      "assets": {
+        "illustration": "illustration/1F308.svg",
+        "emojiSvg": "emoji-svg/1F308.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F308.png",
+          "256": "emoji-png/256/1F308.png",
+          "512": "emoji-png/512/1F308.png"
+        }
+      }
+    },
+    {
+      "id": "2602",
+      "unicodeSequence": "2602-FE0F",
+      "emoji": "☂️",
+      "name": "umbrella",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "umbrella"
+      ],
+      "assets": {
+        "illustration": "illustration/2602.svg",
+        "emojiSvg": "emoji-svg/2602.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/2602.png",
+          "256": "emoji-png/256/2602.png",
+          "512": "emoji-png/512/2602.png"
+        }
+      }
+    },
+    {
+      "id": "26A1",
+      "unicodeSequence": "26A1",
+      "emoji": "⚡️",
+      "name": "high voltage",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "high",
+        "voltage"
+      ],
+      "assets": {
+        "illustration": "illustration/26A1.svg",
+        "emojiSvg": "emoji-svg/26A1.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/26A1.png",
+          "256": "emoji-png/256/26A1.png",
+          "512": "emoji-png/512/26A1.png"
+        }
+      }
+    },
+    {
+      "id": "2744",
+      "unicodeSequence": "2744-FE0F",
+      "emoji": "❄️",
+      "name": "snowflake",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "snowflake"
+      ],
+      "assets": {
+        "illustration": "illustration/2744.svg",
+        "emojiSvg": "emoji-svg/2744.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/2744.png",
+          "256": "emoji-png/256/2744.png",
+          "512": "emoji-png/512/2744.png"
+        }
+      }
+    },
+    {
+      "id": "26C4",
+      "unicodeSequence": "26C4",
+      "emoji": "⛄️",
+      "name": "snowman without snow",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "snowman",
+        "without",
+        "snow"
+      ],
+      "assets": {
+        "illustration": "illustration/26C4.svg",
+        "emojiSvg": "emoji-svg/26C4.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/26C4.png",
+          "256": "emoji-png/256/26C4.png",
+          "512": "emoji-png/512/26C4.png"
+        }
+      }
+    },
+    {
+      "id": "1F525",
+      "unicodeSequence": "1F525",
+      "emoji": "🔥",
+      "name": "fire",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "fire"
+      ],
+      "assets": {
+        "illustration": "illustration/1F525.svg",
+        "emojiSvg": "emoji-svg/1F525.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F525.png",
+          "256": "emoji-png/256/1F525.png",
+          "512": "emoji-png/512/1F525.png"
+        }
+      }
+    },
+    {
+      "id": "1F30A",
+      "unicodeSequence": "1F30A",
+      "emoji": "🌊",
+      "name": "water wave",
+      "category": "travel-and-places",
+      "subcategory": "sky-and-weather",
+      "keywords": [
+        "water",
+        "wave"
+      ],
+      "assets": {
+        "illustration": "illustration/1F30A.svg",
+        "emojiSvg": "emoji-svg/1F30A.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F30A.png",
+          "256": "emoji-png/256/1F30A.png",
+          "512": "emoji-png/512/1F30A.png"
+        }
+      }
+    },
+    {
+      "id": "1F389",
+      "unicodeSequence": "1F389",
+      "emoji": "🎉",
+      "name": "party popper",
+      "category": "activities",
+      "subcategory": "event",
+      "keywords": [
+        "party",
+        "popper"
+      ],
+      "assets": {
+        "illustration": "illustration/1F389.svg",
+        "emojiSvg": "emoji-svg/1F389.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F389.png",
+          "256": "emoji-png/256/1F389.png",
+          "512": "emoji-png/512/1F389.png"
+        }
+      }
+    },
+    {
+      "id": "1F381",
+      "unicodeSequence": "1F381",
+      "emoji": "🎁",
+      "name": "wrapped gift",
+      "category": "activities",
+      "subcategory": "event",
+      "keywords": [
+        "wrapped",
+        "gift"
+      ],
+      "assets": {
+        "illustration": "illustration/1F381.svg",
+        "emojiSvg": "emoji-svg/1F381.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F381.png",
+          "256": "emoji-png/256/1F381.png",
+          "512": "emoji-png/512/1F381.png"
+        }
+      }
+    },
+    {
+      "id": "1F3C6",
+      "unicodeSequence": "1F3C6",
+      "emoji": "🏆️",
+      "name": "trophy",
+      "category": "activities",
+      "subcategory": "award-medal",
+      "keywords": [
+        "trophy"
+      ],
+      "assets": {
+        "illustration": "illustration/1F3C6.svg",
+        "emojiSvg": "emoji-svg/1F3C6.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F3C6.png",
+          "256": "emoji-png/256/1F3C6.png",
+          "512": "emoji-png/512/1F3C6.png"
+        }
+      }
+    },
+    {
+      "id": "1F3C8",
+      "unicodeSequence": "1F3C8",
+      "emoji": "🏈",
+      "name": "american football",
+      "category": "activities",
+      "subcategory": "sport",
+      "keywords": [
+        "american",
+        "football"
+      ],
+      "assets": {
+        "illustration": "illustration/1F3C8.svg",
+        "emojiSvg": "emoji-svg/1F3C8.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F3C8.png",
+          "256": "emoji-png/256/1F3C8.png",
+          "512": "emoji-png/512/1F3C8.png"
+        }
+      }
+    },
+    {
+      "id": "1F3A8",
+      "unicodeSequence": "1F3A8",
+      "emoji": "🎨",
+      "name": "artist palette",
+      "category": "activities",
+      "subcategory": "arts-and-crafts",
+      "keywords": [
+        "artist",
+        "palette"
+      ],
+      "assets": {
+        "illustration": "illustration/1F3A8.svg",
+        "emojiSvg": "emoji-svg/1F3A8.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F3A8.png",
+          "256": "emoji-png/256/1F3A8.png",
+          "512": "emoji-png/512/1F3A8.png"
+        }
+      }
+    },
+    {
+      "id": "1F6CD",
+      "unicodeSequence": "1F6CD-FE0F",
+      "emoji": "🛍️",
+      "name": "shopping bags",
+      "category": "objects",
+      "subcategory": "clothing",
+      "keywords": [
+        "shopping",
+        "bags"
+      ],
+      "assets": {
+        "illustration": "illustration/1F6CD.svg",
+        "emojiSvg": "emoji-svg/1F6CD.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F6CD.png",
+          "256": "emoji-png/256/1F6CD.png",
+          "512": "emoji-png/512/1F6CD.png"
+        }
+      }
+    },
+    {
+      "id": "1F392",
+      "unicodeSequence": "1F392",
+      "emoji": "🎒",
+      "name": "backpack",
+      "category": "objects",
+      "subcategory": "clothing",
+      "keywords": [
+        "backpack"
+      ],
+      "assets": {
+        "illustration": "illustration/1F392.svg",
+        "emojiSvg": "emoji-svg/1F392.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F392.png",
+          "256": "emoji-png/256/1F392.png",
+          "512": "emoji-png/512/1F392.png"
+        }
+      }
+    },
+    {
+      "id": "1F3B5",
+      "unicodeSequence": "1F3B5",
+      "emoji": "🎵",
+      "name": "musical note",
+      "category": "objects",
+      "subcategory": "music",
+      "keywords": [
+        "musical",
+        "note"
+      ],
+      "assets": {
+        "illustration": "illustration/1F3B5.svg",
+        "emojiSvg": "emoji-svg/1F3B5.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F3B5.png",
+          "256": "emoji-png/256/1F3B5.png",
+          "512": "emoji-png/512/1F3B5.png"
         }
       }
     },
@@ -1978,22 +1756,244 @@
       }
     },
     {
-      "id": "1F3C6",
-      "unicodeSequence": "1F3C6",
-      "emoji": "🏆️",
-      "name": "trophy",
-      "category": "activities",
-      "subcategory": "award-medal",
+      "id": "1F3A7",
+      "unicodeSequence": "1F3A7",
+      "emoji": "🎧️",
+      "name": "headphone",
+      "category": "objects",
+      "subcategory": "music",
       "keywords": [
-        "trophy"
+        "headphone"
       ],
       "assets": {
-        "illustration": "illustration/1F3C6.svg",
-        "emojiSvg": "emoji-svg/1F3C6.svg",
+        "illustration": "illustration/1F3A7.svg",
+        "emojiSvg": "emoji-svg/1F3A7.svg",
         "emojiPng": {
-          "128": "emoji-png/128/1F3C6.png",
-          "256": "emoji-png/256/1F3C6.png",
-          "512": "emoji-png/512/1F3C6.png"
+          "128": "emoji-png/128/1F3A7.png",
+          "256": "emoji-png/256/1F3A7.png",
+          "512": "emoji-png/512/1F3A7.png"
+        }
+      }
+    },
+    {
+      "id": "1F3B8",
+      "unicodeSequence": "1F3B8",
+      "emoji": "🎸",
+      "name": "guitar",
+      "category": "objects",
+      "subcategory": "musical-instrument",
+      "keywords": [
+        "guitar"
+      ],
+      "assets": {
+        "illustration": "illustration/1F3B8.svg",
+        "emojiSvg": "emoji-svg/1F3B8.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F3B8.png",
+          "256": "emoji-png/256/1F3B8.png",
+          "512": "emoji-png/512/1F3B8.png"
+        }
+      }
+    },
+    {
+      "id": "1F4F1",
+      "unicodeSequence": "1F4F1",
+      "emoji": "📱",
+      "name": "mobile phone",
+      "category": "objects",
+      "subcategory": "phone",
+      "keywords": [
+        "mobile",
+        "phone"
+      ],
+      "assets": {
+        "illustration": "illustration/1F4F1.svg",
+        "emojiSvg": "emoji-svg/1F4F1.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F4F1.png",
+          "256": "emoji-png/256/1F4F1.png",
+          "512": "emoji-png/512/1F4F1.png"
+        }
+      }
+    },
+    {
+      "id": "1F4BB",
+      "unicodeSequence": "1F4BB",
+      "emoji": "💻️",
+      "name": "laptop",
+      "category": "objects",
+      "subcategory": "computer",
+      "keywords": [
+        "laptop"
+      ],
+      "assets": {
+        "illustration": "illustration/1F4BB.svg",
+        "emojiSvg": "emoji-svg/1F4BB.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F4BB.png",
+          "256": "emoji-png/256/1F4BB.png",
+          "512": "emoji-png/512/1F4BB.png"
+        }
+      }
+    },
+    {
+      "id": "1F4F7",
+      "unicodeSequence": "1F4F7",
+      "emoji": "📷️",
+      "name": "camera",
+      "category": "objects",
+      "subcategory": "light-and-video",
+      "keywords": [
+        "camera"
+      ],
+      "assets": {
+        "illustration": "illustration/1F4F7.svg",
+        "emojiSvg": "emoji-svg/1F4F7.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F4F7.png",
+          "256": "emoji-png/256/1F4F7.png",
+          "512": "emoji-png/512/1F4F7.png"
+        }
+      }
+    },
+    {
+      "id": "1F4D6",
+      "unicodeSequence": "1F4D6",
+      "emoji": "📖",
+      "name": "open book",
+      "category": "objects",
+      "subcategory": "book-paper",
+      "keywords": [
+        "open",
+        "book"
+      ],
+      "assets": {
+        "illustration": "illustration/1F4D6.svg",
+        "emojiSvg": "emoji-svg/1F4D6.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F4D6.png",
+          "256": "emoji-png/256/1F4D6.png",
+          "512": "emoji-png/512/1F4D6.png"
+        }
+      }
+    },
+    {
+      "id": "270F",
+      "unicodeSequence": "270F-FE0F",
+      "emoji": "✏️",
+      "name": "pencil",
+      "category": "objects",
+      "subcategory": "writing",
+      "keywords": [
+        "pencil"
+      ],
+      "assets": {
+        "illustration": "illustration/270F.svg",
+        "emojiSvg": "emoji-svg/270F.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/270F.png",
+          "256": "emoji-png/256/270F.png",
+          "512": "emoji-png/512/270F.png"
+        }
+      }
+    },
+    {
+      "id": "2702",
+      "unicodeSequence": "2702-FE0F",
+      "emoji": "✂️",
+      "name": "scissors",
+      "category": "objects",
+      "subcategory": "office",
+      "keywords": [
+        "scissors"
+      ],
+      "assets": {
+        "illustration": "illustration/2702.svg",
+        "emojiSvg": "emoji-svg/2702.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/2702.png",
+          "256": "emoji-png/256/2702.png",
+          "512": "emoji-png/512/2702.png"
+        }
+      }
+    },
+    {
+      "id": "1F511",
+      "unicodeSequence": "1F511",
+      "emoji": "🔑",
+      "name": "key",
+      "category": "objects",
+      "subcategory": "lock",
+      "keywords": [
+        "key"
+      ],
+      "assets": {
+        "illustration": "illustration/1F511.svg",
+        "emojiSvg": "emoji-svg/1F511.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F511.png",
+          "256": "emoji-png/256/1F511.png",
+          "512": "emoji-png/512/1F511.png"
+        }
+      }
+    },
+    {
+      "id": "1F6CF",
+      "unicodeSequence": "1F6CF-FE0F",
+      "emoji": "🛏️",
+      "name": "bed",
+      "category": "objects",
+      "subcategory": "household",
+      "keywords": [
+        "bed"
+      ],
+      "assets": {
+        "illustration": "illustration/1F6CF.svg",
+        "emojiSvg": "emoji-svg/1F6CF.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F6CF.png",
+          "256": "emoji-png/256/1F6CF.png",
+          "512": "emoji-png/512/1F6CF.png"
+        }
+      }
+    },
+    {
+      "id": "1F6BF",
+      "unicodeSequence": "1F6BF",
+      "emoji": "🚿",
+      "name": "shower",
+      "category": "objects",
+      "subcategory": "household",
+      "keywords": [
+        "shower"
+      ],
+      "assets": {
+        "illustration": "illustration/1F6BF.svg",
+        "emojiSvg": "emoji-svg/1F6BF.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1F6BF.png",
+          "256": "emoji-png/256/1F6BF.png",
+          "512": "emoji-png/512/1F6BF.png"
+        }
+      }
+    },
+    {
+      "id": "1FAA5",
+      "unicodeSequence": "1FAA5",
+      "emoji": "🪥",
+      "name": "toothbrush",
+      "category": "objects",
+      "subcategory": "household",
+      "keywords": [
+        "toothbrush"
+      ],
+      "assets": {
+        "illustration": "illustration/1FAA5.svg",
+        "emojiSvg": "emoji-svg/1FAA5.svg",
+        "emojiPng": {
+          "128": "emoji-png/128/1FAA5.png",
+          "256": "emoji-png/256/1FAA5.png",
+          "512": "emoji-png/512/1FAA5.png"
         }
       }
     }

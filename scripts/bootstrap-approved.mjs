@@ -8,14 +8,14 @@ if (sourceFlag === -1 || !process.argv[sourceFlag + 1]) {
 
 const root = process.cwd();
 const sourceRoot = path.resolve(process.argv[sourceFlag + 1]);
-const manifestPath = path.join(sourceRoot, 'public', 'iconic', 'generated', 'emoji-manifest.json');
+const libraryPath = path.join(sourceRoot, 'public', 'iconic', 'generated', 'library.json');
 const sourceIconsDir = path.join(sourceRoot, 'public', 'iconic', 'generated', 'icons');
 const targetIconsDir = path.join(root, 'icons');
 const targetDataFile = path.join(root, 'data', 'icons.json');
 const unicodeUrl = 'https://www.unicode.org/Public/emoji/latest/emoji-test.txt';
 
-const [manifest, unicodeResponse] = await Promise.all([
-  fs.readFile(manifestPath, 'utf8').then(JSON.parse),
+const [library, unicodeResponse] = await Promise.all([
+  fs.readFile(libraryPath, 'utf8').then(JSON.parse),
   fetch(unicodeUrl),
 ]);
 
@@ -26,7 +26,11 @@ if (!/^# Version: 17\.0$/m.test(unicodeSource)) {
   throw new Error('The official latest emoji-test.txt is not Unicode Emoji 17.0. Review before importing.');
 }
 const unicodeRecords = parseUnicodeEmojiTest(unicodeSource);
-const approved = manifest.approvedBatches.flatMap((batch) => batch.items);
+const approved = library.items;
+
+if (library.count !== 96 || approved.length !== 96) {
+  throw new Error(`Expected the public DDRILLS library to contain 96 icons, found ${approved.length}.`);
+}
 
 await fs.rm(targetIconsDir, { recursive: true, force: true });
 await fs.mkdir(targetIconsDir, { recursive: true });
