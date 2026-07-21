@@ -8,6 +8,7 @@ const sitePath = new URL(siteUrl).pathname.replace(/\/$/, '');
 const repositoryUrl = 'https://github.com/roblo3x/iconic-drills-pack';
 const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/';
 const credit = 'Iconic Drills Pack © 2026 Roman Kuzhel, Kyrgyzstan — CC BY 4.0';
+const illustrationAssetRevision = 'organic-v2';
 const emojiAssetRevision = 'c8ff00';
 const metadata = JSON.parse(await fs.readFile(path.join(root, 'data', 'icons.json'), 'utf8'));
 const logoSource = await fs.readFile(path.join(root, 'site-src', 'DdrillsLogo.jsx'), 'utf8');
@@ -26,6 +27,7 @@ const escapeHtml = (value) => String(value)
 const jsonLd = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
 const absolute = (value = '') => `${siteUrl}/${String(value).replace(/^\//, '')}`;
 const local = (value = '') => `${sitePath}/${String(value).replace(/^\//, '')}`.replace(/^$/, '/');
+const illustrationLocal = (value) => `${local(value)}?v=${illustrationAssetRevision}`;
 const emojiAbsolute = (value) => `${absolute(value)}?v=${emojiAssetRevision}`;
 const emojiLocal = (value) => `${local(value)}?v=${emojiAssetRevision}`;
 const displayCategory = (value) => value.split('-').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ');
@@ -152,7 +154,7 @@ const cards = metadata.icons.map((icon) => {
   const search = [icon.name, icon.category, icon.subcategory, ...icon.keywords, icon.id, icon.emoji].join(' ').toLowerCase();
   return `<article class="icon-item" data-icon-item data-category="${escapeHtml(icon.category)}" data-search="${escapeHtml(search)}">
     <a class="icon-link" href="${local(`icons/${icon.id}/`)}" aria-label="View ${escapeHtml(icon.name)} icon">
-      <img src="${local(`assets/illustration/${icon.id}.svg`)}" alt="Rough hand-drawn ${escapeHtml(icon.name)} icon" width="256" height="256" loading="lazy">
+      <img src="${illustrationLocal(`assets/illustration/${icon.id}.svg`)}" alt="Rough hand-drawn ${escapeHtml(icon.name)} icon" width="256" height="256" loading="lazy">
       <div class="icon-meta"><span class="icon-name">${escapeHtml(icon.name)}</span><span class="icon-code">U+${escapeHtml(icon.unicodeSequence)}</span></div>
     </a>
   </article>`;
@@ -185,7 +187,7 @@ const homeContent = `<main>
   <section class="format-pair reveal" aria-label="Available formats">
     <div class="format">
       <figure>
-        <img src="${local(`assets/illustration/${sampleIcon.id}.svg`)}" alt="${escapeHtml(sampleIcon.name)} as a transparent monochrome SVG illustration" width="430" height="430">
+        <img src="${illustrationLocal(`assets/illustration/${sampleIcon.id}.svg`)}" alt="${escapeHtml(sampleIcon.name)} as a transparent monochrome SVG illustration" width="430" height="430">
         <figcaption><span>Illustration SVG</span><span>currentColor</span></figcaption>
       </figure>
     </div>
@@ -331,7 +333,7 @@ for (const [index, icon] of metadata.icons.entries()) {
   const detailContent = `<main class="detail-main">
     <nav class="breadcrumb" aria-label="Breadcrumb"><a href="${local('')}">Iconic Drills Pack</a> / <a href="${local(`#catalog`)}">Catalog</a> / ${escapeHtml(icon.name)}</nav>
     <section class="detail-hero">
-      <div class="detail-visual"><img src="${local(`assets/illustration/${icon.id}.svg`)}" alt="Hand-drawn ${escapeHtml(icon.name)} from the Iconic Drills Pack" width="512" height="512"></div>
+      <div class="detail-visual"><img src="${illustrationLocal(`assets/illustration/${icon.id}.svg`)}" alt="Hand-drawn ${escapeHtml(icon.name)} from the Iconic Drills Pack" width="512" height="512"></div>
       <div class="detail-copy">
         <span class="emoji-glyph" aria-hidden="true">${escapeHtml(icon.emoji)}</span>
         <h1>${escapeHtml(icon.name)}</h1>
@@ -342,17 +344,17 @@ for (const [index, icon] of metadata.icons.entries()) {
           <div><dt>License</dt><dd><a href="${licenseUrl}">CC BY 4.0</a></dd></div>
         </dl>
         <div class="actions">
-          <a class="button button--dark" href="${local(`assets/illustration/${icon.id}.svg`)}" download>Download SVG</a>
+          <a class="button button--dark" href="${illustrationLocal(`assets/illustration/${icon.id}.svg`)}" download>Download SVG</a>
           <a class="button" href="${emojiLocal(`assets/emoji-png/512/${icon.id}.png`)}" download>Download PNG</a>
         </div>
       </div>
     </section>
     <section class="asset-row" aria-label="${escapeHtml(icon.name)} formats">
       <div class="asset-preview">
-        <img src="${local(`assets/illustration/${icon.id}.svg`)}" alt="Transparent monochrome ${escapeHtml(icon.name)} SVG illustration" width="360" height="360">
+        <img src="${illustrationLocal(`assets/illustration/${icon.id}.svg`)}" alt="Transparent monochrome ${escapeHtml(icon.name)} SVG illustration" width="360" height="360">
         <h2>Illustration SVG</h2>
         <p>Transparent and scalable. Inherits color with <code>currentColor</code>.</p>
-        <a href="${local(`assets/illustration/${icon.id}.svg`)}" download>Download illustration</a>
+        <a href="${illustrationLocal(`assets/illustration/${icon.id}.svg`)}" download>Download illustration</a>
       </div>
       <div class="asset-preview">
         <img src="${emojiLocal(`assets/emoji-svg/${icon.id}.svg`)}" alt="Ddrills acid-lime ${escapeHtml(icon.name)} custom emoji" width="360" height="360">
