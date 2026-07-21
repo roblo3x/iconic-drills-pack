@@ -46,6 +46,7 @@
   ],
   "scripts": {
     "bootstrap": "node scripts/bootstrap-approved.mjs",
+    "smooth": "node scripts/smooth-masters.mjs",
     "build": "node scripts/build.mjs && node scripts/build-preview.mjs",
     "preview": "node scripts/build-preview.mjs",
     "site:build": "node scripts/build-site.mjs",
@@ -56,6 +57,7 @@
     "pack:check": "npm pack --dry-run"
   },
   "devDependencies": {
+    "paper": "^0.12.18",
     "sharp": "^0.34.3"
   },
   "engines": {
